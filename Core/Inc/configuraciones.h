@@ -66,77 +66,7 @@ void setTo28MHzFromHSE(void)
 
 void configurarTimerParaLedRgb()
 {
-  __asm__ volatile("cpsid i");
-
-  RCC->APB1ENR |= RCC_APB1ENR_TIM2EN | RCC_APB1ENR_TIM3EN | RCC_APB1ENR_TIM4EN;
   
-  /************************** Configuración de Timer 2 ***********************/
-
-  TIM2->PSC = SystemCoreClock / FRECUENCIA_CNT_LEDS - 1;
-  TIM2->ARR = 0xFFFF;
-
-  // Match para el LED rojo
-  TIM2->CCR2 = 0;
-
-  // Hago que se haga un match en 2000000 μs
-  TIM2->CCR1 = PERIODO_PWM;
-
-  // Hago que los matchs con CCR1 y CCR2 generen pedido de interrupción
-  TIM2->DIER = TIM_DIER_CC1IE | TIM_DIER_CC2IE;
-
-  NVIC->ISER[0] |= (1 << TIM2_IRQn);
-  NVIC->ICPR[0] |= (1 << TIM2_IRQn);
-
-  ////////////////////////////////////////////////////////////////////////////////
-  /************************* Configuración de Timer 3 ***************************/
-  
-  TIM3->PSC = SystemCoreClock / FRECUENCIA_CNT_LEDS - 1;
-  TIM3->ARR = 0xFFFF;
-
-  // Match para el LED verde
-  TIM3->CCR2 = 0;
-
-  // Hago que se haga un match en 2000000 μs
-  TIM3->CCR1 = PERIODO_PWM;
-
-  // Hago que los matchs con CCR1 y CCR2 generen pedido de interrupción
-  TIM3->DIER = TIM_DIER_CC1IE | TIM_DIER_CC2IE;
-
-  NVIC->ISER[0] |= (1 << TIM3_IRQn);
-  NVIC->ICPR[0] |= (1 << TIM3_IRQn);
-
-  ////////////////////////////////////////////////////////////////////////////////
-  /************************* Configuración de Timer 4 ***************************/
-  
-  TIM4->PSC = SystemCoreClock / FRECUENCIA_CNT_LEDS - 1;
-  TIM4->ARR = 0xFFFF;
-
-  // Match para el LED azul
-  TIM4->CCR2 = 0;
-
-  // Hago que se haga un match en 2000000 μs
-  TIM4->CCR1 = PERIODO_PWM;
-
-  // Hago que los matchs con CCR1 y CCR2 generen pedido de interrupción
-  TIM4->DIER = TIM_DIER_CC1IE | TIM_DIER_CC2IE;
-
-  NVIC->ISER[0] |= (1 << TIM4_IRQn);
-  NVIC->ICPR[0] |= (1 << TIM4_IRQn);
-
-  NVIC_SetPriority(TIM2_IRQn, 0);
-  NVIC_SetPriority(TIM3_IRQn, 0);
-  NVIC_SetPriority(TIM4_IRQn, 0);
-  
-  __asm__ volatile ("cpsie i");
-
-  // Habilito el contador del timer
-  TIM2->CR1 |= TIM_CR1_CEN;
-  TIM3->CR1 |= TIM_CR1_CEN;
-  TIM4->CR1 |= TIM_CR1_CEN;
-
-  TIM2->SR = 0;
-  TIM3->SR = 0;
-  TIM4->SR = 0;
 }
 
 // Timer usado para notificar un error con el LED de la placa
@@ -147,12 +77,15 @@ void configurarTIM1(void)
   // Habilito la entrada de reloj para el Timer 1
   RCC->APB2ENR |= RCC_APB2ENR_TIM1EN;
 
-  // Con esto consigo un período de 1000 μs
+  uint32_t frecuencia_CNT = 1000;
+
+  // Con esto consigo una frecuencia de 1 kHz para el contador
   // Así, si la frecuencia de entrada al timer es de 28 MHz, el PSC tendrá el valor 1000
-  TIM1->PSC = SystemCoreClock / 1000 - 1;
+  TIM1->PSC = SystemCoreClock / frecuencia_CNT - 1;
+  // Con esto consigo un período de 0.5 s
   TIM1->ARR = 500;
 
-  // Hago que los matchs con CCR1 y CCR2 generen pedido de interrupción
+  // Hago que los eventos como el desborde generen pedido de interrupción
   TIM1->DIER = TIM_DIER_UIE;
 
   TIM1->CR1 = 0;
@@ -160,9 +93,8 @@ void configurarTIM1(void)
   NVIC->ISER[0] |= 1 << TIM1_UP_IRQn;
   NVIC->ICPR[0] |= 1 << TIM1_UP_IRQn;
   
-  TIM1->CNT = 0;
+  TIM1->CR1 = TIM_CR1_CEN;
   TIM1->SR = 0;
-  NVIC_SetPriority(TIM1_UP_IRQn, 1);
 
   __asm__ volatile ("cpsie i");
 }
@@ -187,19 +119,41 @@ void configurarUSART1()
 
   NVIC->ISER[1] |= 1 << (USART1_IRQn - 32);
   NVIC->ICPR[1] |= 1 << (USART1_IRQn - 32);
-  NVIC_SetPriority(USART1_IRQn, 2);
+}
+
+void configurarUSART2()
+{
+  // Esto hace que se divida en 45.57 la frecuencia de 28 MHz.
+  // De esta manera obtendría una velocidad de transmisión/recepción de 38400 bps.
+  USART2->BRR = 0x02D9;
+
+  USART2->CR2 = 0;
+  // Habilito las interrupciones por error
+  USART2->CR3 = USART_CR3_EIE;
+  // Habilito la USART, el recibimiento de datos y la transmisión de datos.
+  // Implícitamente además, estoy haciendo que lo que se mande sea:
+  //      - 1 bit de start
+  //      - 8 bits de datos
+  //      - 1 bit de stop
+  //      - sin paridad
+  USART2->CR1 = USART_CR1_UE | USART_CR1_RE | USART_CR1_TE | USART_CR1_RXNEIE;
+
+  NVIC->ISER[1] |= 1 << (USART2_IRQn - 32);
+  NVIC->ICPR[1] |= 1 << (USART2_IRQn - 32);
 }
 
 void configurarPuertos()
 {
-  RCC->APB2ENR |= RCC_APB2ENR_IOPAEN | RCC_APB2ENR_AFIOEN | RCC_APB2ENR_USART1EN | RCC_APB2ENR_IOPCEN;
-
-  // Se configuran como salida los LEDs rojo, verde, y azul
-  GPIOA->CRL = GPIO_CRL_MODE5_1 | GPIO_CRL_MODE6_1 | GPIO_CRL_MODE7_1;
+  RCC->APB2ENR |= RCC_APB2ENR_AFIOEN | RCC_APB2ENR_USART1EN | RCC_APB2ENR_IOPCEN | RCC_APB2ENR_IOPAEN;
+  RCC->APB1ENR |= RCC_APB1ENR_USART2EN;
 
   // Se configura como salida TX el puerto A9 y como RX el puerto A10
   GPIOA->CRH = GPIO_CRH_CNF9_1 | GPIO_CRH_MODE9_1 |
-               GPIO_CRH_CNF10_1;
+                GPIO_CRH_CNF10_1;
+
+  // Se configura como salida TX el puerto A2 y como RX el puerto A3
+  GPIOA->CRL = GPIO_CRL_CNF2_1 | GPIO_CRL_MODE2_1 |
+                GPIO_CRL_CNF3_1;
 
   GPIOC->CRH = GPIO_CRH_MODE13_1;
   GPIOC->ODR = GPIO_ODR_ODR13;

@@ -11,11 +11,17 @@
 #define PASO 2
 #define MAXIMA_INTENSIDAD (PERIODO_PWM/PASO)
 
+#define ESP_01 USART1
+#define PC USART2
+
 #define COMIENZO_ROJO 0
 #define COMIENZO_
 
 static char* intensidadLed;
 static uint8_t index_intensidad;
+
+static uint8_t* comandoAT;
+static uint8_t index_AT;
 
 static char* caracteres;
 static uint8_t index_caracteres;
@@ -78,6 +84,24 @@ void msParpadeoLedPlaca(uint16_t milisegundos)
 uint8_t esNumero(uint8_t car)
 {
     return car >= 0x30 && car <= 0x39;
+}
+
+uint8_t UARTDisponible(USART_TypeDef* pUSART)
+{
+    if(pUSART->SR & USART_SR_TXE) return 1;
+    else return 0;
+}
+
+void UARTEscribirByte(USART_TypeDef* pUSART, uint8_t data)
+{
+    while(!UARTDisponible(pUSART));
+    pUSART->DR = data;
+}
+
+void UARTEscribirString(USART_TypeDef* pUSART, uint8_t* string)
+{
+    for(uint8_t* p = string; *p != 0; p++)
+        UARTEscribirByte(pUSART, *p);
 }
 
 void encenderNaranja()

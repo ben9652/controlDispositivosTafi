@@ -1,4 +1,4 @@
-ARM GAS  C:\Users\ben96\AppData\Local\Temp\cc7fBNai.s 			page 1
+ARM GAS  C:\Users\ben96\AppData\Local\Temp\ccB2QI3T.s 			page 1
 
 
    1              		.cpu cortex-m3
@@ -58,7 +58,7 @@ ARM GAS  C:\Users\ben96\AppData\Local\Temp\cc7fBNai.s 			page 1
   30:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c **** 
   31:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c **** #ifdef HAL_RCC_MODULE_ENABLED
   32:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c **** 
-ARM GAS  C:\Users\ben96\AppData\Local\Temp\cc7fBNai.s 			page 2
+ARM GAS  C:\Users\ben96\AppData\Local\Temp\ccB2QI3T.s 			page 2
 
 
   33:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c **** /** @defgroup RCCEx RCCEx
@@ -118,7 +118,7 @@ ARM GAS  C:\Users\ben96\AppData\Local\Temp\cc7fBNai.s 			page 1
   87:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c ****   *         contains the configuration information for the Extended Peripherals clocks(RTC clock).
   88:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c ****   *
   89:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c ****   * @note   Care must be taken when HAL_RCCEx_PeriphCLKConfig() is used to select
-ARM GAS  C:\Users\ben96\AppData\Local\Temp\cc7fBNai.s 			page 3
+ARM GAS  C:\Users\ben96\AppData\Local\Temp\ccB2QI3T.s 			page 3
 
 
   90:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c ****   *         the RTC clock source; in this case the Backup domain will be reset in
@@ -178,7 +178,7 @@ ARM GAS  C:\Users\ben96\AppData\Local\Temp\cc7fBNai.s 			page 1
  113:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c ****     FlagStatus pwrclkchanged = RESET;
   58              		.loc 1 113 16
   59 001c 0023     		movs	r3, #0
-ARM GAS  C:\Users\ben96\AppData\Local\Temp\cc7fBNai.s 			page 4
+ARM GAS  C:\Users\ben96\AppData\Local\Temp\ccB2QI3T.s 			page 4
 
 
   60 001e FB75     		strb	r3, [r7, #23]
@@ -238,7 +238,7 @@ ARM GAS  C:\Users\ben96\AppData\Local\Temp\cc7fBNai.s 			page 1
   97 005e 1360     		str	r3, [r2]
  131:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c **** 
  132:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c ****       /* Wait for Backup domain Write protection disable */
-ARM GAS  C:\Users\ben96\AppData\Local\Temp\cc7fBNai.s 			page 5
+ARM GAS  C:\Users\ben96\AppData\Local\Temp\ccB2QI3T.s 			page 5
 
 
  133:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c ****       tickstart = HAL_GetTick();
@@ -298,7 +298,7 @@ ARM GAS  C:\Users\ben96\AppData\Local\Temp\cc7fBNai.s 			page 1
  136 0096 7B68     		ldr	r3, [r7, #4]
  137 0098 5B68     		ldr	r3, [r3, #4]
  138              		.loc 1 146 85 discriminator 1
-ARM GAS  C:\Users\ben96\AppData\Local\Temp\cc7fBNai.s 			page 6
+ARM GAS  C:\Users\ben96\AppData\Local\Temp\ccB2QI3T.s 			page 6
 
 
  139 009a 03F44073 		and	r3, r3, #768
@@ -358,7 +358,7 @@ ARM GAS  C:\Users\ben96\AppData\Local\Temp\cc7fBNai.s 			page 1
  165:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c ****           if ((HAL_GetTick() - tickstart) > RCC_LSE_TIMEOUT_VALUE)
  175              		.loc 1 165 16
  176 00d2 FFF7FEFF 		bl	HAL_GetTick
-ARM GAS  C:\Users\ben96\AppData\Local\Temp\cc7fBNai.s 			page 7
+ARM GAS  C:\Users\ben96\AppData\Local\Temp\ccB2QI3T.s 			page 7
 
 
  177 00d6 0246     		mov	r2, r0
@@ -418,7 +418,7 @@ ARM GAS  C:\Users\ben96\AppData\Local\Temp\cc7fBNai.s 			page 1
  217              	.LBE2:
  178:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c ****     }
  179:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c ****   }
-ARM GAS  C:\Users\ben96\AppData\Local\Temp\cc7fBNai.s 			page 8
+ARM GAS  C:\Users\ben96\AppData\Local\Temp\ccB2QI3T.s 			page 8
 
 
  180:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c **** 
@@ -478,7 +478,7 @@ ARM GAS  C:\Users\ben96\AppData\Local\Temp\cc7fBNai.s 			page 1
  216:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c ****     /* Update flag to indicate that PLL I2S should be active */
  217:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c ****     pllactive = 1;
  218:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c ****   }
-ARM GAS  C:\Users\ben96\AppData\Local\Temp\cc7fBNai.s 			page 9
+ARM GAS  C:\Users\ben96\AppData\Local\Temp\ccB2QI3T.s 			page 9
 
 
  219:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c **** 
@@ -538,7 +538,7 @@ ARM GAS  C:\Users\ben96\AppData\Local\Temp\cc7fBNai.s 			page 1
  273:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c ****   /*------------------------------ USB clock Configuration ------------------*/
  274:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c ****   if (((PeriphClkInit->PeriphClockSelection) & RCC_PERIPHCLK_USB) == RCC_PERIPHCLK_USB)
  236              		.loc 1 274 22
-ARM GAS  C:\Users\ben96\AppData\Local\Temp\cc7fBNai.s 			page 10
+ARM GAS  C:\Users\ben96\AppData\Local\Temp\ccB2QI3T.s 			page 10
 
 
  237 0136 7B68     		ldr	r3, [r7, #4]
@@ -598,7 +598,7 @@ ARM GAS  C:\Users\ben96\AppData\Local\Temp\cc7fBNai.s 			page 1
  281              		.thumb_func
  282              		.fpu softvfp
  284              	HAL_RCCEx_GetPeriphCLKConfig:
-ARM GAS  C:\Users\ben96\AppData\Local\Temp\cc7fBNai.s 			page 11
+ARM GAS  C:\Users\ben96\AppData\Local\Temp\ccB2QI3T.s 			page 11
 
 
  285              	.LFB66:
@@ -658,7 +658,7 @@ ARM GAS  C:\Users\ben96\AppData\Local\Temp\cc7fBNai.s 			page 1
  306:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c ****   /* Get the ADC clock configuration -----------------------------------------*/
  307:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c ****   PeriphClkInit->PeriphClockSelection |= RCC_PERIPHCLK_ADC;
  319              		.loc 1 307 39
-ARM GAS  C:\Users\ben96\AppData\Local\Temp\cc7fBNai.s 			page 12
+ARM GAS  C:\Users\ben96\AppData\Local\Temp\ccB2QI3T.s 			page 12
 
 
  320 0022 7B68     		ldr	r3, [r7, #4]
@@ -718,7 +718,7 @@ ARM GAS  C:\Users\ben96\AppData\Local\Temp\cc7fBNai.s 			page 1
  344 0050 DA60     		str	r2, [r3, #12]
  338:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c **** #endif /* STM32F102x6 || STM32F102xB || STM32F103x6 || STM32F103xB || STM32F103xE || STM32F103xG ||
  339:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c **** }
-ARM GAS  C:\Users\ben96\AppData\Local\Temp\cc7fBNai.s 			page 13
+ARM GAS  C:\Users\ben96\AppData\Local\Temp\ccB2QI3T.s 			page 13
 
 
  345              		.loc 1 339 1
@@ -778,7 +778,7 @@ ARM GAS  C:\Users\ben96\AppData\Local\Temp\cc7fBNai.s 			page 1
  357:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c ****   *            @arg @ref RCC_PERIPHCLK_I2S2 I2S2 peripheral clock
  358:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c ****   @endif
  359:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c ****   @if STM32F105xC
-ARM GAS  C:\Users\ben96\AppData\Local\Temp\cc7fBNai.s 			page 14
+ARM GAS  C:\Users\ben96\AppData\Local\Temp\ccB2QI3T.s 			page 14
 
 
  360:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c ****   *            @arg @ref RCC_PERIPHCLK_I2S2 I2S2 peripheral clock
@@ -838,7 +838,7 @@ ARM GAS  C:\Users\ben96\AppData\Local\Temp\cc7fBNai.s 			page 1
  397:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c ****     defined(STM32F103xB) || defined(STM32F103xE) || defined(STM32F103xG)
  398:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c ****   const uint8_t aPLLMULFactorTable[16] = {2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 16};
  398              		.loc 1 398 17
-ARM GAS  C:\Users\ben96\AppData\Local\Temp\cc7fBNai.s 			page 15
+ARM GAS  C:\Users\ben96\AppData\Local\Temp\ccB2QI3T.s 			page 15
 
 
  399 0008 584B     		ldr	r3, .L35
@@ -898,7 +898,7 @@ ARM GAS  C:\Users\ben96\AppData\Local\Temp\cc7fBNai.s 			page 1
  418:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c ****       /* Check if PLL is enabled */
  419:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c ****       if (HAL_IS_BIT_SET(RCC->CR, RCC_CR_PLLON))
  420:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c ****       {
-ARM GAS  C:\Users\ben96\AppData\Local\Temp\cc7fBNai.s 			page 16
+ARM GAS  C:\Users\ben96\AppData\Local\Temp\ccB2QI3T.s 			page 16
 
 
  421:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c ****         pllmul = aPLLMULFactorTable[(uint32_t)(temp_reg & RCC_CFGR_PLLMULL) >> RCC_CFGR_PLLMULL_Pos
@@ -958,7 +958,7 @@ ARM GAS  C:\Users\ben96\AppData\Local\Temp\cc7fBNai.s 			page 1
  475:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c ****         {
  476:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c ****           /* Prescaler of 3 selected for USB */
  477:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c ****           frequency = (2 * pllclk) / 3;
-ARM GAS  C:\Users\ben96\AppData\Local\Temp\cc7fBNai.s 			page 17
+ARM GAS  C:\Users\ben96\AppData\Local\Temp\ccB2QI3T.s 			page 17
 
 
  478:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c ****         }
@@ -1018,7 +1018,7 @@ ARM GAS  C:\Users\ben96\AppData\Local\Temp\cc7fBNai.s 			page 1
  532:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c ****       }
  533:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c ****       else
  534:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c ****       {
-ARM GAS  C:\Users\ben96\AppData\Local\Temp\cc7fBNai.s 			page 18
+ARM GAS  C:\Users\ben96\AppData\Local\Temp\ccB2QI3T.s 			page 18
 
 
  535:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c ****         /* Check if PLLI2S is enabled */
@@ -1078,7 +1078,7 @@ ARM GAS  C:\Users\ben96\AppData\Local\Temp\cc7fBNai.s 			page 1
  439              		.loc 1 416 16
  440 004c 5B68     		ldr	r3, [r3, #4]
  441 004e FB61     		str	r3, [r7, #28]
-ARM GAS  C:\Users\ben96\AppData\Local\Temp\cc7fBNai.s 			page 19
+ARM GAS  C:\Users\ben96\AppData\Local\Temp\ccB2QI3T.s 			page 19
 
 
  419:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c ****       {
@@ -1138,7 +1138,7 @@ ARM GAS  C:\Users\ben96\AppData\Local\Temp\cc7fBNai.s 			page 1
  456:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c ****           }
  483              		.loc 1 456 44
  484 0096 374A     		ldr	r2, .L35+8
-ARM GAS  C:\Users\ben96\AppData\Local\Temp\cc7fBNai.s 			page 20
+ARM GAS  C:\Users\ben96\AppData\Local\Temp\ccB2QI3T.s 			page 20
 
 
  485 0098 7B6A     		ldr	r3, [r7, #36]
@@ -1198,7 +1198,7 @@ ARM GAS  C:\Users\ben96\AppData\Local\Temp\cc7fBNai.s 			page 1
  554:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c ****       {
  528              		.loc 1 554 22
  529 00dc FB69     		ldr	r3, [r7, #28]
-ARM GAS  C:\Users\ben96\AppData\Local\Temp\cc7fBNai.s 			page 21
+ARM GAS  C:\Users\ben96\AppData\Local\Temp\ccB2QI3T.s 			page 21
 
 
  530 00de 03F44073 		and	r3, r3, #768
@@ -1258,7 +1258,7 @@ ARM GAS  C:\Users\ben96\AppData\Local\Temp\cc7fBNai.s 			page 1
  572 012a 03F40033 		and	r3, r3, #131072
  563:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c ****       {
  573              		.loc 1 563 78 discriminator 1
-ARM GAS  C:\Users\ben96\AppData\Local\Temp\cc7fBNai.s 			page 22
+ARM GAS  C:\Users\ben96\AppData\Local\Temp\ccB2QI3T.s 			page 22
 
 
  574 012e 002B     		cmp	r3, #0
@@ -1318,7 +1318,7 @@ ARM GAS  C:\Users\ben96\AppData\Local\Temp\cc7fBNai.s 			page 1
  614              		.loc 1 584 10
  615 0162 BB6A     		ldr	r3, [r7, #40]
  585:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c **** }
-ARM GAS  C:\Users\ben96\AppData\Local\Temp\cc7fBNai.s 			page 23
+ARM GAS  C:\Users\ben96\AppData\Local\Temp\ccB2QI3T.s 			page 23
 
 
  616              		.loc 1 585 1
@@ -1349,21 +1349,21 @@ ARM GAS  C:\Users\ben96\AppData\Local\Temp\cc7fBNai.s 			page 1
  642              		.file 5 "Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h"
  643              		.file 6 "Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h"
  644              		.file 7 "Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h"
-ARM GAS  C:\Users\ben96\AppData\Local\Temp\cc7fBNai.s 			page 24
+ARM GAS  C:\Users\ben96\AppData\Local\Temp\ccB2QI3T.s 			page 24
 
 
 DEFINED SYMBOLS
                             *ABS*:00000000 stm32f1xx_hal_rcc_ex.c
-C:\Users\ben96\AppData\Local\Temp\cc7fBNai.s:16     .text.HAL_RCCEx_PeriphCLKConfig:00000000 $t
-C:\Users\ben96\AppData\Local\Temp\cc7fBNai.s:24     .text.HAL_RCCEx_PeriphCLKConfig:00000000 HAL_RCCEx_PeriphCLKConfig
-C:\Users\ben96\AppData\Local\Temp\cc7fBNai.s:270    .text.HAL_RCCEx_PeriphCLKConfig:00000160 $d
-C:\Users\ben96\AppData\Local\Temp\cc7fBNai.s:277    .text.HAL_RCCEx_GetPeriphCLKConfig:00000000 $t
-C:\Users\ben96\AppData\Local\Temp\cc7fBNai.s:284    .text.HAL_RCCEx_GetPeriphCLKConfig:00000000 HAL_RCCEx_GetPeriphCLKConfig
-C:\Users\ben96\AppData\Local\Temp\cc7fBNai.s:362    .text.HAL_RCCEx_GetPeriphCLKConfig:0000005c $d
-C:\Users\ben96\AppData\Local\Temp\cc7fBNai.s:367    .rodata:00000000 $d
-C:\Users\ben96\AppData\Local\Temp\cc7fBNai.s:372    .text.HAL_RCCEx_GetPeriphCLKFreq:00000000 $t
-C:\Users\ben96\AppData\Local\Temp\cc7fBNai.s:379    .text.HAL_RCCEx_GetPeriphCLKFreq:00000000 HAL_RCCEx_GetPeriphCLKFreq
-C:\Users\ben96\AppData\Local\Temp\cc7fBNai.s:629    .text.HAL_RCCEx_GetPeriphCLKFreq:0000016c $d
+C:\Users\ben96\AppData\Local\Temp\ccB2QI3T.s:16     .text.HAL_RCCEx_PeriphCLKConfig:00000000 $t
+C:\Users\ben96\AppData\Local\Temp\ccB2QI3T.s:24     .text.HAL_RCCEx_PeriphCLKConfig:00000000 HAL_RCCEx_PeriphCLKConfig
+C:\Users\ben96\AppData\Local\Temp\ccB2QI3T.s:270    .text.HAL_RCCEx_PeriphCLKConfig:00000160 $d
+C:\Users\ben96\AppData\Local\Temp\ccB2QI3T.s:277    .text.HAL_RCCEx_GetPeriphCLKConfig:00000000 $t
+C:\Users\ben96\AppData\Local\Temp\ccB2QI3T.s:284    .text.HAL_RCCEx_GetPeriphCLKConfig:00000000 HAL_RCCEx_GetPeriphCLKConfig
+C:\Users\ben96\AppData\Local\Temp\ccB2QI3T.s:362    .text.HAL_RCCEx_GetPeriphCLKConfig:0000005c $d
+C:\Users\ben96\AppData\Local\Temp\ccB2QI3T.s:367    .rodata:00000000 $d
+C:\Users\ben96\AppData\Local\Temp\ccB2QI3T.s:372    .text.HAL_RCCEx_GetPeriphCLKFreq:00000000 $t
+C:\Users\ben96\AppData\Local\Temp\ccB2QI3T.s:379    .text.HAL_RCCEx_GetPeriphCLKFreq:00000000 HAL_RCCEx_GetPeriphCLKFreq
+C:\Users\ben96\AppData\Local\Temp\ccB2QI3T.s:629    .text.HAL_RCCEx_GetPeriphCLKFreq:0000016c $d
 
 UNDEFINED SYMBOLS
 HAL_GetTick

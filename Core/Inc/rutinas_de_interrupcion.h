@@ -5,104 +5,11 @@
 #include <stdlib.h>
 #include <stdio.h>
 
-void TIM2_IRQHandler()
-{
-  uint32_t statusRegister = TIM2->SR;
-  TIM2->SR = 0;
-
-  if(statusRegister & TIM_SR_CC1IF)
-  {
-    if(TIM2->CCR2 != 0)
-    {
-      // Enciendo el LED rojo
-      GPIOA->ODR |= GPIO_ODR_ODR5;
-      TIM2->EGR = TIM_EGR_UG;
-    }
-  }
-  else
-    // Apago el LED rojo
-    GPIOA->ODR &= ~GPIO_ODR_ODR5;
-}
-
-void TIM3_IRQHandler()
-{
-  uint32_t statusRegister = TIM3->SR;
-  TIM3->SR = 0;
-
-  if(statusRegister & TIM_SR_CC1IF)
-  {
-    if(TIM3->CCR2 != 0)
-    {
-      // Enciendo el LED verde
-      GPIOA->ODR |= GPIO_ODR_ODR6;
-      TIM3->EGR = TIM_EGR_UG;
-    }
-  }
-  else
-    // Apago el LED verde
-    GPIOA->ODR &= ~GPIO_ODR_ODR6;
-}
-
-void TIM4_IRQHandler()
-{
-  uint32_t statusRegister = TIM4->SR;
-  TIM4->SR = 0;
-
-  if(statusRegister & TIM_SR_CC1IF)
-  {
-    if(TIM4->CCR2 != 0)
-    {
-      // Enciendo el LED azul
-      GPIOA->ODR |= GPIO_ODR_ODR7;
-      TIM4->EGR = TIM_EGR_UG;
-    }
-  }
-  else
-    // Apago el LED azul
-    GPIOA->ODR &= ~GPIO_ODR_ODR7;
-}
-
 void TIM1_UP_IRQHandler()
 {
-  uint32_t odr;
-  odr = GPIOC->ODR;
-
-  if(!partyMode)
-  {
-    if(odr & GPIO_ODR_ODR13)
-      GPIOC->ODR &= ~GPIO_ODR_ODR13;  // Encender el LED
-    else
-    {
-      TIM1->CR1 &= ~TIM_CR1_CEN;      // Para el timer
-      GPIOC->ODR |= GPIO_ODR_ODR13;  // Apagar el LED
-    }
-  }
-  else
-  {
-    static uint8_t color_seleccionado = 0;
-    if(color_seleccionado == NARANJA) encenderNaranja();
-    else if(color_seleccionado == AMARILLO) encenderAmarillo();
-    else if(color_seleccionado == FLUOR) encenderFluor();
-    else if(color_seleccionado == ROSA) encenderRosa();
-    else if(color_seleccionado == ROJO) encenderRojo();
-    else if(color_seleccionado == VIOLETA) encenderVioleta();
-    else if(color_seleccionado == VERDE) encenderVerde();
-    else if(color_seleccionado == CELESTE) encenderCeleste();
-    else if(color_seleccionado == AZUL) encenderAzul();
-    else if(color_seleccionado == BLANCO) encenderBlanco();
-    else if(color_seleccionado == CELESTE_MAR) encenderCelesteMar();
-    else if(color_seleccionado == VIOLETA_OSCURO) encenderVioletaOscuro();
-    else if(color_seleccionado == FUCSIA) encenderFucsia();
-    else
-    {
-      color_seleccionado = 0;
-      encenderNaranja();
-    }
-    color_seleccionado++;
-  }
-
-  TIM1->EGR = TIM_EGR_UG;
   TIM1->SR = 0;
+  
+  GPIOC->ODR ^= GPIO_ODR_ODR13;
 }
 
 void USART1_IRQHandler()

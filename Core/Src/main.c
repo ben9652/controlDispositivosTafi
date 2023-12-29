@@ -1,5 +1,6 @@
 #include "configuraciones.h"
 #include "rutinas_de_interrupcion.h"
+#include "gestorComandosAT.h"
 #include "myLib.h"
 #include "stdlib.h"
 
@@ -10,6 +11,10 @@
 int main(void)
 {
   setTo28MHzFromHSE();
+
+  comandoAT = (uint8_t*)malloc(50);
+  *comandoAT = 0;
+  index_AT = 0;
 
   intensidadLed = (char*)malloc(6);
   memset(intensidadLed, 0, 6);
@@ -22,7 +27,8 @@ int main(void)
   configurarPuertos();
   configurarTIM1();
   configurarTimerParaLedRgb();
-  configurarUSART1();
+  // configurarUSART1();
+  configurarUSART2();
   
   while(1);
 }
