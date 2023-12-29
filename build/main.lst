@@ -1,4 +1,4 @@
-ARM GAS  C:\Users\ben96\AppData\Local\Temp\ccsdFOSc.s 			page 1
+ARM GAS  C:\Users\ben96\AppData\Local\Temp\cc0gcgHj.s 			page 1
 
 
    1              		.cpu cortex-m3
@@ -58,7 +58,7 @@ ARM GAS  C:\Users\ben96\AppData\Local\Temp\ccsdFOSc.s 			page 1
   31:Drivers/CMSIS/Include/core_cm3.h **** #ifndef __CORE_CM3_H_GENERIC
   32:Drivers/CMSIS/Include/core_cm3.h **** #define __CORE_CM3_H_GENERIC
   33:Drivers/CMSIS/Include/core_cm3.h **** 
-ARM GAS  C:\Users\ben96\AppData\Local\Temp\ccsdFOSc.s 			page 2
+ARM GAS  C:\Users\ben96\AppData\Local\Temp\cc0gcgHj.s 			page 2
 
 
   34:Drivers/CMSIS/Include/core_cm3.h **** #include <stdint.h>
@@ -118,7 +118,7 @@ ARM GAS  C:\Users\ben96\AppData\Local\Temp\ccsdFOSc.s 			page 1
   88:Drivers/CMSIS/Include/core_cm3.h **** #elif defined ( __GNUC__ )
   89:Drivers/CMSIS/Include/core_cm3.h ****   #if defined (__VFP_FP__) && !defined(__SOFTFP__)
   90:Drivers/CMSIS/Include/core_cm3.h ****     #error "Compiler generates FPU instructions for a device without an FPU (check __FPU_PRESENT)"
-ARM GAS  C:\Users\ben96\AppData\Local\Temp\ccsdFOSc.s 			page 3
+ARM GAS  C:\Users\ben96\AppData\Local\Temp\cc0gcgHj.s 			page 3
 
 
   91:Drivers/CMSIS/Include/core_cm3.h ****   #endif
@@ -178,7 +178,7 @@ ARM GAS  C:\Users\ben96\AppData\Local\Temp\ccsdFOSc.s 			page 1
  145:Drivers/CMSIS/Include/core_cm3.h ****   #ifndef __NVIC_PRIO_BITS
  146:Drivers/CMSIS/Include/core_cm3.h ****     #define __NVIC_PRIO_BITS          3U
  147:Drivers/CMSIS/Include/core_cm3.h ****     #warning "__NVIC_PRIO_BITS not defined in device header file; using default!"
-ARM GAS  C:\Users\ben96\AppData\Local\Temp\ccsdFOSc.s 			page 4
+ARM GAS  C:\Users\ben96\AppData\Local\Temp\cc0gcgHj.s 			page 4
 
 
  148:Drivers/CMSIS/Include/core_cm3.h ****   #endif
@@ -238,7 +238,7 @@ ARM GAS  C:\Users\ben96\AppData\Local\Temp\ccsdFOSc.s 			page 1
  202:Drivers/CMSIS/Include/core_cm3.h **** 
  203:Drivers/CMSIS/Include/core_cm3.h **** /**
  204:Drivers/CMSIS/Include/core_cm3.h ****   \brief  Union type to access the Application Program Status Register (APSR).
-ARM GAS  C:\Users\ben96\AppData\Local\Temp\ccsdFOSc.s 			page 5
+ARM GAS  C:\Users\ben96\AppData\Local\Temp\cc0gcgHj.s 			page 5
 
 
  205:Drivers/CMSIS/Include/core_cm3.h ****  */
@@ -298,7 +298,7 @@ ARM GAS  C:\Users\ben96\AppData\Local\Temp\ccsdFOSc.s 			page 1
  259:Drivers/CMSIS/Include/core_cm3.h **** {
  260:Drivers/CMSIS/Include/core_cm3.h ****   struct
  261:Drivers/CMSIS/Include/core_cm3.h ****   {
-ARM GAS  C:\Users\ben96\AppData\Local\Temp\ccsdFOSc.s 			page 6
+ARM GAS  C:\Users\ben96\AppData\Local\Temp\cc0gcgHj.s 			page 6
 
 
  262:Drivers/CMSIS/Include/core_cm3.h ****     uint32_t ISR:9;                      /*!< bit:  0.. 8  Exception number */
@@ -358,7 +358,7 @@ ARM GAS  C:\Users\ben96\AppData\Local\Temp\ccsdFOSc.s 			page 1
  316:Drivers/CMSIS/Include/core_cm3.h ****   } b;                                   /*!< Structure used for bit  access */
  317:Drivers/CMSIS/Include/core_cm3.h ****   uint32_t w;                            /*!< Type      used for word access */
  318:Drivers/CMSIS/Include/core_cm3.h **** } CONTROL_Type;
-ARM GAS  C:\Users\ben96\AppData\Local\Temp\ccsdFOSc.s 			page 7
+ARM GAS  C:\Users\ben96\AppData\Local\Temp\cc0gcgHj.s 			page 7
 
 
  319:Drivers/CMSIS/Include/core_cm3.h **** 
@@ -418,7 +418,7 @@ ARM GAS  C:\Users\ben96\AppData\Local\Temp\ccsdFOSc.s 			page 1
  373:Drivers/CMSIS/Include/core_cm3.h ****  */
  374:Drivers/CMSIS/Include/core_cm3.h **** typedef struct
  375:Drivers/CMSIS/Include/core_cm3.h **** {
-ARM GAS  C:\Users\ben96\AppData\Local\Temp\ccsdFOSc.s 			page 8
+ARM GAS  C:\Users\ben96\AppData\Local\Temp\cc0gcgHj.s 			page 8
 
 
  376:Drivers/CMSIS/Include/core_cm3.h ****   __IM  uint32_t CPUID;                  /*!< Offset: 0x000 (R/ )  CPUID Base Register */
@@ -478,7 +478,7 @@ ARM GAS  C:\Users\ben96\AppData\Local\Temp\ccsdFOSc.s 			page 1
  430:Drivers/CMSIS/Include/core_cm3.h **** 
  431:Drivers/CMSIS/Include/core_cm3.h **** #define SCB_ICSR_ISRPREEMPT_Pos            23U                                            /*!< SCB 
  432:Drivers/CMSIS/Include/core_cm3.h **** #define SCB_ICSR_ISRPREEMPT_Msk            (1UL << SCB_ICSR_ISRPREEMPT_Pos)               /*!< SCB 
-ARM GAS  C:\Users\ben96\AppData\Local\Temp\ccsdFOSc.s 			page 9
+ARM GAS  C:\Users\ben96\AppData\Local\Temp\cc0gcgHj.s 			page 9
 
 
  433:Drivers/CMSIS/Include/core_cm3.h **** 
@@ -538,7 +538,7 @@ ARM GAS  C:\Users\ben96\AppData\Local\Temp\ccsdFOSc.s 			page 1
  487:Drivers/CMSIS/Include/core_cm3.h **** #define SCB_SCR_SLEEPONEXIT_Pos             1U                                            /*!< SCB 
  488:Drivers/CMSIS/Include/core_cm3.h **** #define SCB_SCR_SLEEPONEXIT_Msk            (1UL << SCB_SCR_SLEEPONEXIT_Pos)               /*!< SCB 
  489:Drivers/CMSIS/Include/core_cm3.h **** 
-ARM GAS  C:\Users\ben96\AppData\Local\Temp\ccsdFOSc.s 			page 10
+ARM GAS  C:\Users\ben96\AppData\Local\Temp\cc0gcgHj.s 			page 10
 
 
  490:Drivers/CMSIS/Include/core_cm3.h **** /* SCB Configuration Control Register Definitions */
@@ -598,7 +598,7 @@ ARM GAS  C:\Users\ben96\AppData\Local\Temp\ccsdFOSc.s 			page 1
  544:Drivers/CMSIS/Include/core_cm3.h **** #define SCB_SHCSR_USGFAULTACT_Msk          (1UL << SCB_SHCSR_USGFAULTACT_Pos)             /*!< SCB 
  545:Drivers/CMSIS/Include/core_cm3.h **** 
  546:Drivers/CMSIS/Include/core_cm3.h **** #define SCB_SHCSR_BUSFAULTACT_Pos           1U                                            /*!< SCB 
-ARM GAS  C:\Users\ben96\AppData\Local\Temp\ccsdFOSc.s 			page 11
+ARM GAS  C:\Users\ben96\AppData\Local\Temp\cc0gcgHj.s 			page 11
 
 
  547:Drivers/CMSIS/Include/core_cm3.h **** #define SCB_SHCSR_BUSFAULTACT_Msk          (1UL << SCB_SHCSR_BUSFAULTACT_Pos)             /*!< SCB 
@@ -658,7 +658,7 @@ ARM GAS  C:\Users\ben96\AppData\Local\Temp\ccsdFOSc.s 			page 1
  601:Drivers/CMSIS/Include/core_cm3.h **** #define SCB_CFSR_UNALIGNED_Pos            (SCB_CFSR_USGFAULTSR_Pos + 8U)                  /*!< SCB 
  602:Drivers/CMSIS/Include/core_cm3.h **** #define SCB_CFSR_UNALIGNED_Msk            (1UL << SCB_CFSR_UNALIGNED_Pos)                 /*!< SCB 
  603:Drivers/CMSIS/Include/core_cm3.h **** 
-ARM GAS  C:\Users\ben96\AppData\Local\Temp\ccsdFOSc.s 			page 12
+ARM GAS  C:\Users\ben96\AppData\Local\Temp\cc0gcgHj.s 			page 12
 
 
  604:Drivers/CMSIS/Include/core_cm3.h **** #define SCB_CFSR_NOCP_Pos                 (SCB_CFSR_USGFAULTSR_Pos + 3U)                  /*!< SCB 
@@ -718,7 +718,7 @@ ARM GAS  C:\Users\ben96\AppData\Local\Temp\ccsdFOSc.s 			page 1
  658:Drivers/CMSIS/Include/core_cm3.h ****   __IM  uint32_t ICTR;                   /*!< Offset: 0x004 (R/ )  Interrupt Controller Type Regist
  659:Drivers/CMSIS/Include/core_cm3.h **** #if defined (__CM3_REV) && (__CM3_REV >= 0x200U)
  660:Drivers/CMSIS/Include/core_cm3.h ****   __IOM uint32_t ACTLR;                  /*!< Offset: 0x008 (R/W)  Auxiliary Control Register */
-ARM GAS  C:\Users\ben96\AppData\Local\Temp\ccsdFOSc.s 			page 13
+ARM GAS  C:\Users\ben96\AppData\Local\Temp\cc0gcgHj.s 			page 13
 
 
  661:Drivers/CMSIS/Include/core_cm3.h **** #else
@@ -778,7 +778,7 @@ ARM GAS  C:\Users\ben96\AppData\Local\Temp\ccsdFOSc.s 			page 1
  715:Drivers/CMSIS/Include/core_cm3.h **** /* SysTick Reload Register Definitions */
  716:Drivers/CMSIS/Include/core_cm3.h **** #define SysTick_LOAD_RELOAD_Pos             0U                                            /*!< SysT
  717:Drivers/CMSIS/Include/core_cm3.h **** #define SysTick_LOAD_RELOAD_Msk            (0xFFFFFFUL /*<< SysTick_LOAD_RELOAD_Pos*/)    /*!< SysT
-ARM GAS  C:\Users\ben96\AppData\Local\Temp\ccsdFOSc.s 			page 14
+ARM GAS  C:\Users\ben96\AppData\Local\Temp\cc0gcgHj.s 			page 14
 
 
  718:Drivers/CMSIS/Include/core_cm3.h **** 
@@ -838,7 +838,7 @@ ARM GAS  C:\Users\ben96\AppData\Local\Temp\ccsdFOSc.s 			page 1
  772:Drivers/CMSIS/Include/core_cm3.h ****   __IM  uint32_t PID0;                   /*!< Offset: 0xFE0 (R/ )  ITM Peripheral Identification Re
  773:Drivers/CMSIS/Include/core_cm3.h ****   __IM  uint32_t PID1;                   /*!< Offset: 0xFE4 (R/ )  ITM Peripheral Identification Re
  774:Drivers/CMSIS/Include/core_cm3.h ****   __IM  uint32_t PID2;                   /*!< Offset: 0xFE8 (R/ )  ITM Peripheral Identification Re
-ARM GAS  C:\Users\ben96\AppData\Local\Temp\ccsdFOSc.s 			page 15
+ARM GAS  C:\Users\ben96\AppData\Local\Temp\cc0gcgHj.s 			page 15
 
 
  775:Drivers/CMSIS/Include/core_cm3.h ****   __IM  uint32_t PID3;                   /*!< Offset: 0xFEC (R/ )  ITM Peripheral Identification Re
@@ -898,7 +898,7 @@ ARM GAS  C:\Users\ben96\AppData\Local\Temp\ccsdFOSc.s 			page 1
  829:Drivers/CMSIS/Include/core_cm3.h **** 
  830:Drivers/CMSIS/Include/core_cm3.h **** #define ITM_LSR_Access_Pos                  1U                                            /*!< ITM 
  831:Drivers/CMSIS/Include/core_cm3.h **** #define ITM_LSR_Access_Msk                 (1UL << ITM_LSR_Access_Pos)                    /*!< ITM 
-ARM GAS  C:\Users\ben96\AppData\Local\Temp\ccsdFOSc.s 			page 16
+ARM GAS  C:\Users\ben96\AppData\Local\Temp\cc0gcgHj.s 			page 16
 
 
  832:Drivers/CMSIS/Include/core_cm3.h **** 
@@ -958,7 +958,7 @@ ARM GAS  C:\Users\ben96\AppData\Local\Temp\ccsdFOSc.s 			page 1
  886:Drivers/CMSIS/Include/core_cm3.h **** #define DWT_CTRL_NOCYCCNT_Pos              25U                                         /*!< DWT CTR
  887:Drivers/CMSIS/Include/core_cm3.h **** #define DWT_CTRL_NOCYCCNT_Msk              (0x1UL << DWT_CTRL_NOCYCCNT_Pos)            /*!< DWT CTR
  888:Drivers/CMSIS/Include/core_cm3.h **** 
-ARM GAS  C:\Users\ben96\AppData\Local\Temp\ccsdFOSc.s 			page 17
+ARM GAS  C:\Users\ben96\AppData\Local\Temp\cc0gcgHj.s 			page 17
 
 
  889:Drivers/CMSIS/Include/core_cm3.h **** #define DWT_CTRL_NOPRFCNT_Pos              24U                                         /*!< DWT CTR
@@ -1018,7 +1018,7 @@ ARM GAS  C:\Users\ben96\AppData\Local\Temp\ccsdFOSc.s 			page 1
  943:Drivers/CMSIS/Include/core_cm3.h **** /* DWT LSU Count Register Definitions */
  944:Drivers/CMSIS/Include/core_cm3.h **** #define DWT_LSUCNT_LSUCNT_Pos               0U                                         /*!< DWT LSU
  945:Drivers/CMSIS/Include/core_cm3.h **** #define DWT_LSUCNT_LSUCNT_Msk              (0xFFUL /*<< DWT_LSUCNT_LSUCNT_Pos*/)       /*!< DWT LSU
-ARM GAS  C:\Users\ben96\AppData\Local\Temp\ccsdFOSc.s 			page 18
+ARM GAS  C:\Users\ben96\AppData\Local\Temp\cc0gcgHj.s 			page 18
 
 
  946:Drivers/CMSIS/Include/core_cm3.h **** 
@@ -1078,7 +1078,7 @@ ARM GAS  C:\Users\ben96\AppData\Local\Temp\ccsdFOSc.s 			page 1
 1000:Drivers/CMSIS/Include/core_cm3.h ****         uint32_t RESERVED0[2U];
 1001:Drivers/CMSIS/Include/core_cm3.h ****   __IOM uint32_t ACPR;                   /*!< Offset: 0x010 (R/W)  Asynchronous Clock Prescaler Reg
 1002:Drivers/CMSIS/Include/core_cm3.h ****         uint32_t RESERVED1[55U];
-ARM GAS  C:\Users\ben96\AppData\Local\Temp\ccsdFOSc.s 			page 19
+ARM GAS  C:\Users\ben96\AppData\Local\Temp\cc0gcgHj.s 			page 19
 
 
 1003:Drivers/CMSIS/Include/core_cm3.h ****   __IOM uint32_t SPPR;                   /*!< Offset: 0x0F0 (R/W)  Selected Pin Protocol Register *
@@ -1138,7 +1138,7 @@ ARM GAS  C:\Users\ben96\AppData\Local\Temp\ccsdFOSc.s 			page 1
 1057:Drivers/CMSIS/Include/core_cm3.h **** #define TPI_FIFO0_ITM_ATVALID_Pos          29U                                         /*!< TPI FIF
 1058:Drivers/CMSIS/Include/core_cm3.h **** #define TPI_FIFO0_ITM_ATVALID_Msk          (0x3UL << TPI_FIFO0_ITM_ATVALID_Pos)        /*!< TPI FIF
 1059:Drivers/CMSIS/Include/core_cm3.h **** 
-ARM GAS  C:\Users\ben96\AppData\Local\Temp\ccsdFOSc.s 			page 20
+ARM GAS  C:\Users\ben96\AppData\Local\Temp\cc0gcgHj.s 			page 20
 
 
 1060:Drivers/CMSIS/Include/core_cm3.h **** #define TPI_FIFO0_ITM_bytecount_Pos        27U                                         /*!< TPI FIF
@@ -1198,7 +1198,7 @@ ARM GAS  C:\Users\ben96\AppData\Local\Temp\ccsdFOSc.s 			page 1
 1114:Drivers/CMSIS/Include/core_cm3.h **** /* TPI Integration Mode Control Register Definitions */
 1115:Drivers/CMSIS/Include/core_cm3.h **** #define TPI_ITCTRL_Mode_Pos                 0U                                         /*!< TPI ITC
 1116:Drivers/CMSIS/Include/core_cm3.h **** #define TPI_ITCTRL_Mode_Msk                (0x3UL /*<< TPI_ITCTRL_Mode_Pos*/)          /*!< TPI ITC
-ARM GAS  C:\Users\ben96\AppData\Local\Temp\ccsdFOSc.s 			page 21
+ARM GAS  C:\Users\ben96\AppData\Local\Temp\cc0gcgHj.s 			page 21
 
 
 1117:Drivers/CMSIS/Include/core_cm3.h **** 
@@ -1258,7 +1258,7 @@ ARM GAS  C:\Users\ben96\AppData\Local\Temp\ccsdFOSc.s 			page 1
 1171:Drivers/CMSIS/Include/core_cm3.h **** } MPU_Type;
 1172:Drivers/CMSIS/Include/core_cm3.h **** 
 1173:Drivers/CMSIS/Include/core_cm3.h **** #define MPU_TYPE_RALIASES                  4U
-ARM GAS  C:\Users\ben96\AppData\Local\Temp\ccsdFOSc.s 			page 22
+ARM GAS  C:\Users\ben96\AppData\Local\Temp\cc0gcgHj.s 			page 22
 
 
 1174:Drivers/CMSIS/Include/core_cm3.h **** 
@@ -1318,7 +1318,7 @@ ARM GAS  C:\Users\ben96\AppData\Local\Temp\ccsdFOSc.s 			page 1
 1228:Drivers/CMSIS/Include/core_cm3.h **** #define MPU_RASR_B_Pos                     16U                                            /*!< MPU 
 1229:Drivers/CMSIS/Include/core_cm3.h **** #define MPU_RASR_B_Msk                     (1UL << MPU_RASR_B_Pos)                        /*!< MPU 
 1230:Drivers/CMSIS/Include/core_cm3.h **** 
-ARM GAS  C:\Users\ben96\AppData\Local\Temp\ccsdFOSc.s 			page 23
+ARM GAS  C:\Users\ben96\AppData\Local\Temp\cc0gcgHj.s 			page 23
 
 
 1231:Drivers/CMSIS/Include/core_cm3.h **** #define MPU_RASR_SRD_Pos                    8U                                            /*!< MPU 
@@ -1378,7 +1378,7 @@ ARM GAS  C:\Users\ben96\AppData\Local\Temp\ccsdFOSc.s 			page 1
 1285:Drivers/CMSIS/Include/core_cm3.h **** #define CoreDebug_DHCSR_C_SNAPSTALL_Msk    (1UL << CoreDebug_DHCSR_C_SNAPSTALL_Pos)       /*!< Core
 1286:Drivers/CMSIS/Include/core_cm3.h **** 
 1287:Drivers/CMSIS/Include/core_cm3.h **** #define CoreDebug_DHCSR_C_MASKINTS_Pos      3U                                            /*!< Core
-ARM GAS  C:\Users\ben96\AppData\Local\Temp\ccsdFOSc.s 			page 24
+ARM GAS  C:\Users\ben96\AppData\Local\Temp\cc0gcgHj.s 			page 24
 
 
 1288:Drivers/CMSIS/Include/core_cm3.h **** #define CoreDebug_DHCSR_C_MASKINTS_Msk     (1UL << CoreDebug_DHCSR_C_MASKINTS_Pos)        /*!< Core
@@ -1438,7 +1438,7 @@ ARM GAS  C:\Users\ben96\AppData\Local\Temp\ccsdFOSc.s 			page 1
 1342:Drivers/CMSIS/Include/core_cm3.h **** 
 1343:Drivers/CMSIS/Include/core_cm3.h **** #define CoreDebug_DEMCR_VC_CORERESET_Pos    0U                                            /*!< Core
 1344:Drivers/CMSIS/Include/core_cm3.h **** #define CoreDebug_DEMCR_VC_CORERESET_Msk   (1UL /*<< CoreDebug_DEMCR_VC_CORERESET_Pos*/)  /*!< Core
-ARM GAS  C:\Users\ben96\AppData\Local\Temp\ccsdFOSc.s 			page 25
+ARM GAS  C:\Users\ben96\AppData\Local\Temp\cc0gcgHj.s 			page 25
 
 
 1345:Drivers/CMSIS/Include/core_cm3.h **** 
@@ -1498,7 +1498,7 @@ ARM GAS  C:\Users\ben96\AppData\Local\Temp\ccsdFOSc.s 			page 1
 1399:Drivers/CMSIS/Include/core_cm3.h **** #define CoreDebug           ((CoreDebug_Type *)     CoreDebug_BASE)   /*!< Core Debug configuration
 1400:Drivers/CMSIS/Include/core_cm3.h **** 
 1401:Drivers/CMSIS/Include/core_cm3.h **** #if defined (__MPU_PRESENT) && (__MPU_PRESENT == 1U)
-ARM GAS  C:\Users\ben96\AppData\Local\Temp\ccsdFOSc.s 			page 26
+ARM GAS  C:\Users\ben96\AppData\Local\Temp\cc0gcgHj.s 			page 26
 
 
 1402:Drivers/CMSIS/Include/core_cm3.h ****   #define MPU_BASE          (SCS_BASE +  0x0D90UL)                    /*!< Memory Protection Unit *
@@ -1558,7 +1558,7 @@ ARM GAS  C:\Users\ben96\AppData\Local\Temp\ccsdFOSc.s 			page 1
 1456:Drivers/CMSIS/Include/core_cm3.h ****   #include CMSIS_VECTAB_VIRTUAL_HEADER_FILE
 1457:Drivers/CMSIS/Include/core_cm3.h **** #else
 1458:Drivers/CMSIS/Include/core_cm3.h ****   #define NVIC_SetVector              __NVIC_SetVector
-ARM GAS  C:\Users\ben96\AppData\Local\Temp\ccsdFOSc.s 			page 27
+ARM GAS  C:\Users\ben96\AppData\Local\Temp\cc0gcgHj.s 			page 27
 
 
 1459:Drivers/CMSIS/Include/core_cm3.h ****   #define NVIC_GetVector              __NVIC_GetVector
@@ -1618,7 +1618,7 @@ ARM GAS  C:\Users\ben96\AppData\Local\Temp\ccsdFOSc.s 			page 1
 1513:Drivers/CMSIS/Include/core_cm3.h ****   if ((int32_t)(IRQn) >= 0)
 1514:Drivers/CMSIS/Include/core_cm3.h ****   {
 1515:Drivers/CMSIS/Include/core_cm3.h ****     NVIC->ISER[(((uint32_t)IRQn) >> 5UL)] = (uint32_t)(1UL << (((uint32_t)IRQn) & 0x1FUL));
-ARM GAS  C:\Users\ben96\AppData\Local\Temp\ccsdFOSc.s 			page 28
+ARM GAS  C:\Users\ben96\AppData\Local\Temp\cc0gcgHj.s 			page 28
 
 
 1516:Drivers/CMSIS/Include/core_cm3.h ****   }
@@ -1678,7 +1678,7 @@ ARM GAS  C:\Users\ben96\AppData\Local\Temp\ccsdFOSc.s 			page 1
 1570:Drivers/CMSIS/Include/core_cm3.h ****     return((uint32_t)(((NVIC->ISPR[(((uint32_t)IRQn) >> 5UL)] & (1UL << (((uint32_t)IRQn) & 0x1FUL)
 1571:Drivers/CMSIS/Include/core_cm3.h ****   }
 1572:Drivers/CMSIS/Include/core_cm3.h ****   else
-ARM GAS  C:\Users\ben96\AppData\Local\Temp\ccsdFOSc.s 			page 29
+ARM GAS  C:\Users\ben96\AppData\Local\Temp\cc0gcgHj.s 			page 29
 
 
 1573:Drivers/CMSIS/Include/core_cm3.h ****   {
@@ -1738,7 +1738,7 @@ ARM GAS  C:\Users\ben96\AppData\Local\Temp\ccsdFOSc.s 			page 1
 1627:Drivers/CMSIS/Include/core_cm3.h **** }
 1628:Drivers/CMSIS/Include/core_cm3.h **** 
 1629:Drivers/CMSIS/Include/core_cm3.h **** 
-ARM GAS  C:\Users\ben96\AppData\Local\Temp\ccsdFOSc.s 			page 30
+ARM GAS  C:\Users\ben96\AppData\Local\Temp\cc0gcgHj.s 			page 30
 
 
 1630:Drivers/CMSIS/Include/core_cm3.h **** /**
@@ -1798,7 +1798,7 @@ ARM GAS  C:\Users\ben96\AppData\Local\Temp\ccsdFOSc.s 			page 1
 1649:Drivers/CMSIS/Include/core_cm3.h **** }
   61              		.loc 1 1649 1
   62 0028 0AE0     		b	.L4
-ARM GAS  C:\Users\ben96\AppData\Local\Temp\ccsdFOSc.s 			page 31
+ARM GAS  C:\Users\ben96\AppData\Local\Temp\cc0gcgHj.s 			page 31
 
 
   63              	.L2:
@@ -1858,7 +1858,7 @@ ARM GAS  C:\Users\ben96\AppData\Local\Temp\ccsdFOSc.s 			page 1
  118              	caracteres:
  119 0000 00000000 		.space	4
  120              		.section	.bss.index_caracteres,"aw",%nobits
-ARM GAS  C:\Users\ben96\AppData\Local\Temp\ccsdFOSc.s 			page 32
+ARM GAS  C:\Users\ben96\AppData\Local\Temp\cc0gcgHj.s 			page 32
 
 
  123              	index_caracteres:
@@ -1918,7 +1918,7 @@ ARM GAS  C:\Users\ben96\AppData\Local\Temp\ccsdFOSc.s 			page 1
   40:Core/Inc/myLib.h **** 
   41:Core/Inc/myLib.h **** // Quiero una función con la que pueda ingresar una cadena de caracteres para meter en el buffer d
   42:Core/Inc/myLib.h **** // y que se transmita esa cadena de caracteres
-ARM GAS  C:\Users\ben96\AppData\Local\Temp\ccsdFOSc.s 			page 33
+ARM GAS  C:\Users\ben96\AppData\Local\Temp\cc0gcgHj.s 			page 33
 
 
   43:Core/Inc/myLib.h **** void transmitirCadena(char* cadena)
@@ -1978,7 +1978,7 @@ ARM GAS  C:\Users\ben96\AppData\Local\Temp\ccsdFOSc.s 			page 1
  188              		.loc 2 49 20 discriminator 2
  189 0030 5A60     		str	r2, [r3, #4]
   46:Core/Inc/myLib.h ****     for(uint8_t i = 0; i < longitud; i++)
-ARM GAS  C:\Users\ben96\AppData\Local\Temp\ccsdFOSc.s 			page 34
+ARM GAS  C:\Users\ben96\AppData\Local\Temp\cc0gcgHj.s 			page 34
 
 
  190              		.loc 2 46 39 discriminator 2
@@ -2038,7 +2038,7 @@ ARM GAS  C:\Users\ben96\AppData\Local\Temp\ccsdFOSc.s 			page 1
  239              	.LCFI12:
  240              		.cfi_def_cfa_register 7
   56:Core/Inc/myLib.h ****     TIM1->CR1 |= TIM_CR1_CEN;
-ARM GAS  C:\Users\ben96\AppData\Local\Temp\ccsdFOSc.s 			page 35
+ARM GAS  C:\Users\ben96\AppData\Local\Temp\cc0gcgHj.s 			page 35
 
 
  241              		.loc 2 56 15
@@ -2098,7 +2098,7 @@ ARM GAS  C:\Users\ben96\AppData\Local\Temp\ccsdFOSc.s 			page 1
  291 0002 84B0     		sub	sp, sp, #16
  292              	.LCFI16:
  293              		.cfi_def_cfa_offset 32
-ARM GAS  C:\Users\ben96\AppData\Local\Temp\ccsdFOSc.s 			page 36
+ARM GAS  C:\Users\ben96\AppData\Local\Temp\cc0gcgHj.s 			page 36
 
 
  294 0004 00AF     		add	r7, sp, #0
@@ -2158,7 +2158,7 @@ ARM GAS  C:\Users\ben96\AppData\Local\Temp\ccsdFOSc.s 			page 1
  341 0052 71EB0303 		sbcs	r3, r1, r3
  342 0056 DFD3     		bcc	.L20
  343              	.LBE3:
-ARM GAS  C:\Users\ben96\AppData\Local\Temp\ccsdFOSc.s 			page 37
+ARM GAS  C:\Users\ben96\AppData\Local\Temp\cc0gcgHj.s 			page 37
 
 
   68:Core/Inc/myLib.h ****     }
@@ -2218,7 +2218,7 @@ ARM GAS  C:\Users\ben96\AppData\Local\Temp\ccsdFOSc.s 			page 1
  393 000c FB88     		ldrh	r3, [r7, #6]
  394 000e D362     		str	r3, [r2, #44]
   75:Core/Inc/myLib.h ****     TIM1->SR = 0;
-ARM GAS  C:\Users\ben96\AppData\Local\Temp\ccsdFOSc.s 			page 38
+ARM GAS  C:\Users\ben96\AppData\Local\Temp\cc0gcgHj.s 			page 38
 
 
  395              		.loc 2 75 9
@@ -2278,7 +2278,7 @@ ARM GAS  C:\Users\ben96\AppData\Local\Temp\ccsdFOSc.s 			page 1
  447 0008 FB71     		strb	r3, [r7, #7]
   80:Core/Inc/myLib.h ****     return car >= 0x30 && car <= 0x39;
  448              		.loc 2 80 24
-ARM GAS  C:\Users\ben96\AppData\Local\Temp\ccsdFOSc.s 			page 39
+ARM GAS  C:\Users\ben96\AppData\Local\Temp\cc0gcgHj.s 			page 39
 
 
  449 000a FB79     		ldrb	r3, [r7, #7]	@ zero_extendqisi2
@@ -2338,7 +2338,7 @@ ARM GAS  C:\Users\ben96\AppData\Local\Temp\ccsdFOSc.s 			page 1
  501 0002 00AF     		add	r7, sp, #0
  502              	.LCFI33:
  503              		.cfi_def_cfa_register 7
-ARM GAS  C:\Users\ben96\AppData\Local\Temp\ccsdFOSc.s 			page 40
+ARM GAS  C:\Users\ben96\AppData\Local\Temp\cc0gcgHj.s 			page 40
 
 
   85:Core/Inc/myLib.h ****     TIM2->CCR2 = 3000 * PASO;
@@ -2398,7 +2398,7 @@ ARM GAS  C:\Users\ben96\AppData\Local\Temp\ccsdFOSc.s 			page 1
  553 0000 80B4     		push	{r7}
  554              	.LCFI36:
  555              		.cfi_def_cfa_offset 4
-ARM GAS  C:\Users\ben96\AppData\Local\Temp\ccsdFOSc.s 			page 41
+ARM GAS  C:\Users\ben96\AppData\Local\Temp\cc0gcgHj.s 			page 41
 
 
  556              		.cfi_offset 7, -4
@@ -2458,7 +2458,7 @@ ARM GAS  C:\Users\ben96\AppData\Local\Temp\ccsdFOSc.s 			page 1
  605              		.cfi_startproc
  606              		@ args = 0, pretend = 0, frame = 0
  607              		@ frame_needed = 1, uses_anonymous_args = 0
-ARM GAS  C:\Users\ben96\AppData\Local\Temp\ccsdFOSc.s 			page 42
+ARM GAS  C:\Users\ben96\AppData\Local\Temp\cc0gcgHj.s 			page 42
 
 
  608              		@ link register save eliminated.
@@ -2518,7 +2518,7 @@ ARM GAS  C:\Users\ben96\AppData\Local\Temp\ccsdFOSc.s 			page 1
  103:Core/Inc/myLib.h **** 
  104:Core/Inc/myLib.h **** void encenderRosa()
  105:Core/Inc/myLib.h **** {
-ARM GAS  C:\Users\ben96\AppData\Local\Temp\ccsdFOSc.s 			page 43
+ARM GAS  C:\Users\ben96\AppData\Local\Temp\cc0gcgHj.s 			page 43
 
 
  660              		.loc 2 105 1
@@ -2578,7 +2578,7 @@ ARM GAS  C:\Users\ben96\AppData\Local\Temp\ccsdFOSc.s 			page 1
  711              		.thumb_func
  712              		.fpu softvfp
  714              	encenderRojo:
-ARM GAS  C:\Users\ben96\AppData\Local\Temp\ccsdFOSc.s 			page 44
+ARM GAS  C:\Users\ben96\AppData\Local\Temp\cc0gcgHj.s 			page 44
 
 
  715              	.LFB74:
@@ -2638,7 +2638,7 @@ ARM GAS  C:\Users\ben96\AppData\Local\Temp\ccsdFOSc.s 			page 1
  763              		.align	1
  764              		.global	encenderVioleta
  765              		.syntax unified
-ARM GAS  C:\Users\ben96\AppData\Local\Temp\ccsdFOSc.s 			page 45
+ARM GAS  C:\Users\ben96\AppData\Local\Temp\cc0gcgHj.s 			page 45
 
 
  766              		.thumb
@@ -2698,7 +2698,7 @@ ARM GAS  C:\Users\ben96\AppData\Local\Temp\ccsdFOSc.s 			page 1
  814 0028 00080040 		.word	1073743872
  815              		.cfi_endproc
  816              	.LFE75:
-ARM GAS  C:\Users\ben96\AppData\Local\Temp\ccsdFOSc.s 			page 46
+ARM GAS  C:\Users\ben96\AppData\Local\Temp\cc0gcgHj.s 			page 46
 
 
  818              		.section	.text.encenderVerde,"ax",%progbits
@@ -2758,7 +2758,7 @@ ARM GAS  C:\Users\ben96\AppData\Local\Temp\ccsdFOSc.s 			page 1
  866              	.L50:
  867 0022 00BF     		.align	2
  868              	.L49:
-ARM GAS  C:\Users\ben96\AppData\Local\Temp\ccsdFOSc.s 			page 47
+ARM GAS  C:\Users\ben96\AppData\Local\Temp\cc0gcgHj.s 			page 47
 
 
  869 0024 00040040 		.word	1073742848
@@ -2818,7 +2818,7 @@ ARM GAS  C:\Users\ben96\AppData\Local\Temp\ccsdFOSc.s 			page 1
  918              	.LCFI63:
  919              		.cfi_restore 7
  920              		.cfi_def_cfa_offset 0
-ARM GAS  C:\Users\ben96\AppData\Local\Temp\ccsdFOSc.s 			page 48
+ARM GAS  C:\Users\ben96\AppData\Local\Temp\cc0gcgHj.s 			page 48
 
 
  921 0022 7047     		bx	lr
@@ -2878,7 +2878,7 @@ ARM GAS  C:\Users\ben96\AppData\Local\Temp\ccsdFOSc.s 			page 1
  970              	.LCFI66:
  971              		.cfi_def_cfa_register 13
  972              		@ sp needed
-ARM GAS  C:\Users\ben96\AppData\Local\Temp\ccsdFOSc.s 			page 49
+ARM GAS  C:\Users\ben96\AppData\Local\Temp\cc0gcgHj.s 			page 49
 
 
  973 001e 80BC     		pop	{r7}
@@ -2938,7 +2938,7 @@ ARM GAS  C:\Users\ben96\AppData\Local\Temp\ccsdFOSc.s 			page 1
  151:Core/Inc/myLib.h **** }
  1023              		.loc 2 151 1
  1024 001e 00BF     		nop
-ARM GAS  C:\Users\ben96\AppData\Local\Temp\ccsdFOSc.s 			page 50
+ARM GAS  C:\Users\ben96\AppData\Local\Temp\cc0gcgHj.s 			page 50
 
 
  1025 0020 BD46     		mov	sp, r7
@@ -2998,7 +2998,7 @@ ARM GAS  C:\Users\ben96\AppData\Local\Temp\ccsdFOSc.s 			page 1
  1075 0014 044B     		ldr	r3, .L61+4
  1076              		.loc 2 157 16
  1077 0016 41F27072 		movw	r2, #6000
-ARM GAS  C:\Users\ben96\AppData\Local\Temp\ccsdFOSc.s 			page 51
+ARM GAS  C:\Users\ben96\AppData\Local\Temp\cc0gcgHj.s 			page 51
 
 
  1078 001a 9A63     		str	r2, [r3, #56]
@@ -3058,7 +3058,7 @@ ARM GAS  C:\Users\ben96\AppData\Local\Temp\ccsdFOSc.s 			page 1
  1128 0010 0022     		movs	r2, #0
  1129 0012 9A63     		str	r2, [r3, #56]
  164:Core/Inc/myLib.h ****     TIM4->CCR2 = 3000 * PASO;
-ARM GAS  C:\Users\ben96\AppData\Local\Temp\ccsdFOSc.s 			page 52
+ARM GAS  C:\Users\ben96\AppData\Local\Temp\cc0gcgHj.s 			page 52
 
 
  1130              		.loc 2 164 9
@@ -3118,7 +3118,7 @@ ARM GAS  C:\Users\ben96\AppData\Local\Temp\ccsdFOSc.s 			page 1
  170:Core/Inc/myLib.h ****     TIM3->CCR2 = 0;
  1181              		.loc 2 170 9
  1182 000e 054B     		ldr	r3, .L67
-ARM GAS  C:\Users\ben96\AppData\Local\Temp\ccsdFOSc.s 			page 53
+ARM GAS  C:\Users\ben96\AppData\Local\Temp\cc0gcgHj.s 			page 53
 
 
  1183              		.loc 2 170 16
@@ -3178,7 +3178,7 @@ ARM GAS  C:\Users\ben96\AppData\Local\Temp\ccsdFOSc.s 			page 1
  1233 0004 4FF08043 		mov	r3, #1073741824
  1234              		.loc 2 176 16
  1235 0008 0022     		movs	r2, #0
-ARM GAS  C:\Users\ben96\AppData\Local\Temp\ccsdFOSc.s 			page 54
+ARM GAS  C:\Users\ben96\AppData\Local\Temp\cc0gcgHj.s 			page 54
 
 
  1236 000a 9A63     		str	r2, [r3, #56]
@@ -3238,7 +3238,7 @@ ARM GAS  C:\Users\ben96\AppData\Local\Temp\ccsdFOSc.s 			page 1
  1280              		@ frame_needed = 1, uses_anonymous_args = 0
  1281 0000 80B5     		push	{r7, lr}
  1282              	.LCFI88:
-ARM GAS  C:\Users\ben96\AppData\Local\Temp\ccsdFOSc.s 			page 55
+ARM GAS  C:\Users\ben96\AppData\Local\Temp\cc0gcgHj.s 			page 55
 
 
  1283              		.cfi_def_cfa_offset 8
@@ -3298,7 +3298,7 @@ ARM GAS  C:\Users\ben96\AppData\Local\Temp\ccsdFOSc.s 			page 1
   29:Core/Inc/configuraciones.h ****   // Aquí particularmente decido que se dividirá. Por lo que se tornará en 4 MHz.
   30:Core/Inc/configuraciones.h ****   // Esta frecuencia de salida se llama PREDIV1
   31:Core/Inc/configuraciones.h ****   RCC->CFGR |= RCC_CFGR_PLLXTPRE;
-ARM GAS  C:\Users\ben96\AppData\Local\Temp\ccsdFOSc.s 			page 56
+ARM GAS  C:\Users\ben96\AppData\Local\Temp\cc0gcgHj.s 			page 56
 
 
  1318              		.loc 3 31 13
@@ -3358,7 +3358,7 @@ ARM GAS  C:\Users\ben96\AppData\Local\Temp\ccsdFOSc.s 			page 1
  1357 0080 5360     		str	r3, [r2, #4]
   47:Core/Inc/configuraciones.h **** 
   48:Core/Inc/configuraciones.h ****   // Con esto hago que la señal APB2 sea de 28 MHz
-ARM GAS  C:\Users\ben96\AppData\Local\Temp\ccsdFOSc.s 			page 57
+ARM GAS  C:\Users\ben96\AppData\Local\Temp\cc0gcgHj.s 			page 57
 
 
   49:Core/Inc/configuraciones.h ****   RCC->CFGR &= ~RCC_CFGR_PPRE2;
@@ -3418,7 +3418,7 @@ ARM GAS  C:\Users\ben96\AppData\Local\Temp\ccsdFOSc.s 			page 1
  1399 00c8 00BF     		nop
  1400              	.L75:
  1401              		.loc 3 61 14 discriminator 1
-ARM GAS  C:\Users\ben96\AppData\Local\Temp\ccsdFOSc.s 			page 58
+ARM GAS  C:\Users\ben96\AppData\Local\Temp\cc0gcgHj.s 			page 58
 
 
  1402 00ca 054B     		ldr	r3, .L76
@@ -3478,7 +3478,7 @@ ARM GAS  C:\Users\ben96\AppData\Local\Temp\ccsdFOSc.s 			page 1
  1450              		.loc 3 69 3
  1451              		.syntax unified
  1452              	@ 69 "Core/Inc/configuraciones.h" 1
-ARM GAS  C:\Users\ben96\AppData\Local\Temp\ccsdFOSc.s 			page 59
+ARM GAS  C:\Users\ben96\AppData\Local\Temp\cc0gcgHj.s 			page 59
 
 
  1453 0004 72B6     		cpsid i
@@ -3538,7 +3538,7 @@ ARM GAS  C:\Users\ben96\AppData\Local\Temp\ccsdFOSc.s 			page 1
  1497 005a 0022     		movs	r2, #0
  1498 005c 9A63     		str	r2, [r3, #56]
   80:Core/Inc/configuraciones.h **** 
-ARM GAS  C:\Users\ben96\AppData\Local\Temp\ccsdFOSc.s 			page 60
+ARM GAS  C:\Users\ben96\AppData\Local\Temp\cc0gcgHj.s 			page 60
 
 
   81:Core/Inc/configuraciones.h ****   // Hago que se haga un match en 2000000 μs
@@ -3598,7 +3598,7 @@ ARM GAS  C:\Users\ben96\AppData\Local\Temp\ccsdFOSc.s 			page 1
  1540 00b6 4A4C     		ldr	r4, .L79+24
  1541              		.loc 3 93 13
  1542 00b8 1046     		mov	r0, r2
-ARM GAS  C:\Users\ben96\AppData\Local\Temp\ccsdFOSc.s 			page 61
+ARM GAS  C:\Users\ben96\AppData\Local\Temp\cc0gcgHj.s 			page 61
 
 
  1543 00ba 1946     		mov	r1, r3
@@ -3658,7 +3658,7 @@ ARM GAS  C:\Users\ben96\AppData\Local\Temp\ccsdFOSc.s 			page 1
  1579              		.loc 3 111 31
  1580 00fc 354B     		ldr	r3, .L79+12
  1581 00fe 1B68     		ldr	r3, [r3]
-ARM GAS  C:\Users\ben96\AppData\Local\Temp\ccsdFOSc.s 			page 62
+ARM GAS  C:\Users\ben96\AppData\Local\Temp\cc0gcgHj.s 			page 62
 
 
  1582 0100 1846     		mov	r0, r3
@@ -3718,7 +3718,7 @@ ARM GAS  C:\Users\ben96\AppData\Local\Temp\ccsdFOSc.s 			page 1
  123:Core/Inc/configuraciones.h ****   NVIC->ISER[0] |= (1 << TIM4_IRQn);
  1625              		.loc 3 123 17
  1626 0150 224B     		ldr	r3, .L79+20
-ARM GAS  C:\Users\ben96\AppData\Local\Temp\ccsdFOSc.s 			page 63
+ARM GAS  C:\Users\ben96\AppData\Local\Temp\cc0gcgHj.s 			page 63
 
 
  1627 0152 1B68     		ldr	r3, [r3]
@@ -3778,7 +3778,7 @@ ARM GAS  C:\Users\ben96\AppData\Local\Temp\ccsdFOSc.s 			page 1
  1669 01a2 104B     		ldr	r3, .L79+28
  1670 01a4 1B68     		ldr	r3, [r3]
  1671 01a6 0F4A     		ldr	r2, .L79+28
-ARM GAS  C:\Users\ben96\AppData\Local\Temp\ccsdFOSc.s 			page 64
+ARM GAS  C:\Users\ben96\AppData\Local\Temp\cc0gcgHj.s 			page 64
 
 
  1672 01a8 43F00103 		orr	r3, r3, #1
@@ -3838,7 +3838,7 @@ ARM GAS  C:\Users\ben96\AppData\Local\Temp\ccsdFOSc.s 			page 1
  1719              		@ frame_needed = 1, uses_anonymous_args = 0
  1720 0000 80B5     		push	{r7, lr}
  1721              	.LCFI92:
-ARM GAS  C:\Users\ben96\AppData\Local\Temp\ccsdFOSc.s 			page 65
+ARM GAS  C:\Users\ben96\AppData\Local\Temp\cc0gcgHj.s 			page 65
 
 
  1722              		.cfi_def_cfa_offset 8
@@ -3898,7 +3898,7 @@ ARM GAS  C:\Users\ben96\AppData\Local\Temp\ccsdFOSc.s 			page 1
  158:Core/Inc/configuraciones.h ****   TIM1->CR1 = 0;
  1763              		.loc 3 158 7
  1764 0032 124B     		ldr	r3, .L82+12
-ARM GAS  C:\Users\ben96\AppData\Local\Temp\ccsdFOSc.s 			page 66
+ARM GAS  C:\Users\ben96\AppData\Local\Temp\cc0gcgHj.s 			page 66
 
 
  1765              		.loc 3 158 13
@@ -3958,7 +3958,7 @@ ARM GAS  C:\Users\ben96\AppData\Local\Temp\ccsdFOSc.s 			page 1
  1809 0078 D34D6210 		.word	274877907
  1810 007c 002C0140 		.word	1073818624
  1811 0080 00E100E0 		.word	-536813312
-ARM GAS  C:\Users\ben96\AppData\Local\Temp\ccsdFOSc.s 			page 67
+ARM GAS  C:\Users\ben96\AppData\Local\Temp\cc0gcgHj.s 			page 67
 
 
  1812              		.cfi_endproc
@@ -4018,7 +4018,7 @@ ARM GAS  C:\Users\ben96\AppData\Local\Temp\ccsdFOSc.s 			page 1
  185:Core/Inc/configuraciones.h ****   //      - sin paridad
  186:Core/Inc/configuraciones.h ****   USART1->CR1 = USART_CR1_UE | USART_CR1_RE | USART_CR1_TE | USART_CR1_RXNEIE;
  1852              		.loc 3 186 9
-ARM GAS  C:\Users\ben96\AppData\Local\Temp\ccsdFOSc.s 			page 68
+ARM GAS  C:\Users\ben96\AppData\Local\Temp\cc0gcgHj.s 			page 68
 
 
  1853 0018 0B4B     		ldr	r3, .L85
@@ -4078,7 +4078,7 @@ ARM GAS  C:\Users\ben96\AppData\Local\Temp\ccsdFOSc.s 			page 1
  1901              		.cfi_def_cfa_offset 4
  1902              		.cfi_offset 7, -4
  1903 0002 00AF     		add	r7, sp, #0
-ARM GAS  C:\Users\ben96\AppData\Local\Temp\ccsdFOSc.s 			page 69
+ARM GAS  C:\Users\ben96\AppData\Local\Temp\cc0gcgHj.s 			page 69
 
 
  1904              	.LCFI97:
@@ -4138,7 +4138,7 @@ ARM GAS  C:\Users\ben96\AppData\Local\Temp\ccsdFOSc.s 			page 1
  1946              	.L88:
  1947 003c 00100240 		.word	1073876992
  1948 0040 00080140 		.word	1073809408
-ARM GAS  C:\Users\ben96\AppData\Local\Temp\ccsdFOSc.s 			page 70
+ARM GAS  C:\Users\ben96\AppData\Local\Temp\cc0gcgHj.s 			page 70
 
 
  1949 0044 00002022 		.word	572522496
@@ -4198,7 +4198,7 @@ ARM GAS  C:\Users\ben96\AppData\Local\Temp\ccsdFOSc.s 			page 1
  1992 0018 03F00203 		and	r3, r3, #2
  1993              		.loc 4 13 5
  1994 001c 002B     		cmp	r3, #0
-ARM GAS  C:\Users\ben96\AppData\Local\Temp\ccsdFOSc.s 			page 71
+ARM GAS  C:\Users\ben96\AppData\Local\Temp\cc0gcgHj.s 			page 71
 
 
  1995 001e 0FD0     		beq	.L91
@@ -4258,7 +4258,7 @@ ARM GAS  C:\Users\ben96\AppData\Local\Temp\ccsdFOSc.s 			page 1
  2036 0054 7047     		bx	lr
  2037              	.L95:
  2038 0056 00BF     		.align	2
-ARM GAS  C:\Users\ben96\AppData\Local\Temp\ccsdFOSc.s 			page 72
+ARM GAS  C:\Users\ben96\AppData\Local\Temp\cc0gcgHj.s 			page 72
 
 
  2039              	.L94:
@@ -4318,7 +4318,7 @@ ARM GAS  C:\Users\ben96\AppData\Local\Temp\ccsdFOSc.s 			page 1
  2086 001c 0C4B     		ldr	r3, .L100
  2087 001e 9B6B     		ldr	r3, [r3, #56]
  2088              		.loc 4 34 7
-ARM GAS  C:\Users\ben96\AppData\Local\Temp\ccsdFOSc.s 			page 73
+ARM GAS  C:\Users\ben96\AppData\Local\Temp\cc0gcgHj.s 			page 73
 
 
  2089 0020 002B     		cmp	r3, #0
@@ -4378,7 +4378,7 @@ ARM GAS  C:\Users\ben96\AppData\Local\Temp\ccsdFOSc.s 			page 1
  2132              	.LFE93:
  2134              		.section	.text.TIM4_IRQHandler,"ax",%progbits
  2135              		.align	1
-ARM GAS  C:\Users\ben96\AppData\Local\Temp\ccsdFOSc.s 			page 74
+ARM GAS  C:\Users\ben96\AppData\Local\Temp\cc0gcgHj.s 			page 74
 
 
  2136              		.global	TIM4_IRQHandler
@@ -4438,7 +4438,7 @@ ARM GAS  C:\Users\ben96\AppData\Local\Temp\ccsdFOSc.s 			page 1
   55:Core/Inc/rutinas_de_interrupcion.h ****       // Enciendo el LED azul
   56:Core/Inc/rutinas_de_interrupcion.h ****       GPIOA->ODR |= GPIO_ODR_ODR7;
  2181              		.loc 4 56 18
-ARM GAS  C:\Users\ben96\AppData\Local\Temp\ccsdFOSc.s 			page 75
+ARM GAS  C:\Users\ben96\AppData\Local\Temp\cc0gcgHj.s 			page 75
 
 
  2182 0024 0B4B     		ldr	r3, .L106+4
@@ -4498,7 +4498,7 @@ ARM GAS  C:\Users\ben96\AppData\Local\Temp\ccsdFOSc.s 			page 1
  2229              		.thumb_func
  2230              		.fpu softvfp
  2232              	TIM1_UP_IRQHandler:
-ARM GAS  C:\Users\ben96\AppData\Local\Temp\ccsdFOSc.s 			page 76
+ARM GAS  C:\Users\ben96\AppData\Local\Temp\cc0gcgHj.s 			page 76
 
 
  2233              	.LFB95:
@@ -4558,7 +4558,7 @@ ARM GAS  C:\Users\ben96\AppData\Local\Temp\ccsdFOSc.s 			page 1
  2274              		.loc 4 76 17
  2275 002c 404B     		ldr	r3, .L126+8
  2276 002e 1B68     		ldr	r3, [r3]
-ARM GAS  C:\Users\ben96\AppData\Local\Temp\ccsdFOSc.s 			page 77
+ARM GAS  C:\Users\ben96\AppData\Local\Temp\cc0gcgHj.s 			page 77
 
 
  2277 0030 3F4A     		ldr	r2, .L126+8
@@ -4618,7 +4618,7 @@ ARM GAS  C:\Users\ben96\AppData\Local\Temp\ccsdFOSc.s 			page 1
  2321 0072 1B78     		ldrb	r3, [r3]	@ zero_extendqisi2
  2322              		.loc 4 86 12
  2323 0074 032B     		cmp	r3, #3
-ARM GAS  C:\Users\ben96\AppData\Local\Temp\ccsdFOSc.s 			page 78
+ARM GAS  C:\Users\ben96\AppData\Local\Temp\cc0gcgHj.s 			page 78
 
 
  2324 0076 02D1     		bne	.L116
@@ -4678,7 +4678,7 @@ ARM GAS  C:\Users\ben96\AppData\Local\Temp\ccsdFOSc.s 			page 1
  2373 00ba 082B     		cmp	r3, #8
  2374 00bc 02D1     		bne	.L121
  2375              		.loc 4 91 41 discriminator 1
-ARM GAS  C:\Users\ben96\AppData\Local\Temp\ccsdFOSc.s 			page 79
+ARM GAS  C:\Users\ben96\AppData\Local\Temp\cc0gcgHj.s 			page 79
 
 
  2376 00be FFF7FEFF 		bl	encenderAzul
@@ -4738,7 +4738,7 @@ ARM GAS  C:\Users\ben96\AppData\Local\Temp\ccsdFOSc.s 			page 1
   99:Core/Inc/rutinas_de_interrupcion.h ****       encenderNaranja();
  2423              		.loc 4 99 7
  2424 0102 FFF7FEFF 		bl	encenderNaranja
-ARM GAS  C:\Users\ben96\AppData\Local\Temp\ccsdFOSc.s 			page 80
+ARM GAS  C:\Users\ben96\AppData\Local\Temp\cc0gcgHj.s 			page 80
 
 
  2425              	.L113:
@@ -4798,7 +4798,7 @@ ARM GAS  C:\Users\ben96\AppData\Local\Temp\ccsdFOSc.s 			page 1
  2471      0A00
  2472 000e 0000     		.align	2
  2473              	.LC2:
-ARM GAS  C:\Users\ben96\AppData\Local\Temp\ccsdFOSc.s 			page 81
+ARM GAS  C:\Users\ben96\AppData\Local\Temp\cc0gcgHj.s 			page 81
 
 
  2474 0010 720D0A00 		.ascii	"r\015\012\000"
@@ -4858,7 +4858,7 @@ ARM GAS  C:\Users\ben96\AppData\Local\Temp\ccsdFOSc.s 			page 1
  2510      0D0A00
  2511 008b 00       		.align	2
  2512              	.LC15:
-ARM GAS  C:\Users\ben96\AppData\Local\Temp\ccsdFOSc.s 			page 82
+ARM GAS  C:\Users\ben96\AppData\Local\Temp\cc0gcgHj.s 			page 82
 
 
  2513 008c 7265640D 		.ascii	"red\015\012\000"
@@ -4918,7 +4918,7 @@ ARM GAS  C:\Users\ben96\AppData\Local\Temp\ccsdFOSc.s 			page 1
  2558 0014 09D0     		beq	.L129
  113:Core/Inc/rutinas_de_interrupcion.h ****   {
  114:Core/Inc/rutinas_de_interrupcion.h ****     msParpadeoLedPlaca(50);
-ARM GAS  C:\Users\ben96\AppData\Local\Temp\ccsdFOSc.s 			page 83
+ARM GAS  C:\Users\ben96\AppData\Local\Temp\cc0gcgHj.s 			page 83
 
 
  2559              		.loc 4 114 5
@@ -4978,7 +4978,7 @@ ARM GAS  C:\Users\ben96\AppData\Local\Temp\ccsdFOSc.s 			page 1
  2599 0060 FB71     		strb	r3, [r7, #7]
  129:Core/Inc/rutinas_de_interrupcion.h **** 
  130:Core/Inc/rutinas_de_interrupcion.h ****   if(dato == 0xFE)
-ARM GAS  C:\Users\ben96\AppData\Local\Temp\ccsdFOSc.s 			page 84
+ARM GAS  C:\Users\ben96\AppData\Local\Temp\cc0gcgHj.s 			page 84
 
 
  2600              		.loc 4 130 5
@@ -5038,7 +5038,7 @@ ARM GAS  C:\Users\ben96\AppData\Local\Temp\ccsdFOSc.s 			page 1
  2643              		.loc 4 141 39
  2644 00a2 794B     		ldr	r3, .L162+8
  2645 00a4 1B78     		ldrb	r3, [r3]	@ zero_extendqisi2
-ARM GAS  C:\Users\ben96\AppData\Local\Temp\ccsdFOSc.s 			page 85
+ARM GAS  C:\Users\ben96\AppData\Local\Temp\cc0gcgHj.s 			page 85
 
 
  2646 00a6 591C     		adds	r1, r3, #1
@@ -5098,7 +5098,7 @@ ARM GAS  C:\Users\ben96\AppData\Local\Temp\ccsdFOSc.s 			page 1
  2691 00e4 1B68     		ldr	r3, [r3]
  2692 00e6 1846     		mov	r0, r3
  2693 00e8 FFF7FEFF 		bl	atoi
-ARM GAS  C:\Users\ben96\AppData\Local\Temp\ccsdFOSc.s 			page 86
+ARM GAS  C:\Users\ben96\AppData\Local\Temp\cc0gcgHj.s 			page 86
 
 
  2694 00ec 0346     		mov	r3, r0
@@ -5158,7 +5158,7 @@ ARM GAS  C:\Users\ben96\AppData\Local\Temp\ccsdFOSc.s 			page 1
  2739              		.loc 4 159 37 discriminator 1
  2740 0132 5A2B     		cmp	r3, #90
  2741 0134 0BD8     		bhi	.L139
-ARM GAS  C:\Users\ben96\AppData\Local\Temp\ccsdFOSc.s 			page 87
+ARM GAS  C:\Users\ben96\AppData\Local\Temp\cc0gcgHj.s 			page 87
 
 
  160:Core/Inc/rutinas_de_interrupcion.h ****                 caracteres[i] += 0x20;
@@ -5218,7 +5218,7 @@ ARM GAS  C:\Users\ben96\AppData\Local\Temp\ccsdFOSc.s 			page 1
  2786 017e 0346     		mov	r3, r0
  2787              		.loc 4 166 11
  2788 0180 002B     		cmp	r3, #0
-ARM GAS  C:\Users\ben96\AppData\Local\Temp\ccsdFOSc.s 			page 88
+ARM GAS  C:\Users\ben96\AppData\Local\Temp\cc0gcgHj.s 			page 88
 
 
  2789 0182 02D0     		beq	.L141
@@ -5278,7 +5278,7 @@ ARM GAS  C:\Users\ben96\AppData\Local\Temp\ccsdFOSc.s 			page 1
  2833 01c4 FB89     		ldrh	r3, [r7, #14]
  2834 01c6 5A00     		lsls	r2, r3, #1
  2835              		.loc 4 176 17
-ARM GAS  C:\Users\ben96\AppData\Local\Temp\ccsdFOSc.s 			page 89
+ARM GAS  C:\Users\ben96\AppData\Local\Temp\cc0gcgHj.s 			page 89
 
 
  2836 01c8 4FF08043 		mov	r3, #1073741824
@@ -5338,7 +5338,7 @@ ARM GAS  C:\Users\ben96\AppData\Local\Temp\ccsdFOSc.s 			page 1
  2885 0214 0346     		mov	r3, r0
  2886              		.loc 4 181 16
  2887 0216 002B     		cmp	r3, #0
-ARM GAS  C:\Users\ben96\AppData\Local\Temp\ccsdFOSc.s 			page 90
+ARM GAS  C:\Users\ben96\AppData\Local\Temp\cc0gcgHj.s 			page 90
 
 
  2888 0218 02D1     		bne	.L147
@@ -5398,7 +5398,7 @@ ARM GAS  C:\Users\ben96\AppData\Local\Temp\ccsdFOSc.s 			page 1
  2938 026c 1549     		ldr	r1, .L162+68
  2939 026e 1846     		mov	r0, r3
  2940 0270 FFF7FEFF 		bl	strcmp
-ARM GAS  C:\Users\ben96\AppData\Local\Temp\ccsdFOSc.s 			page 91
+ARM GAS  C:\Users\ben96\AppData\Local\Temp\cc0gcgHj.s 			page 91
 
 
  2941 0274 0346     		mov	r3, r0
@@ -5458,7 +5458,7 @@ ARM GAS  C:\Users\ben96\AppData\Local\Temp\ccsdFOSc.s 			page 1
  2994              	.L153:
  187:Core/Inc/rutinas_de_interrupcion.h ****         else if(!strcmp(caracteres, "dark purple\r\n")) encenderVioletaOscuro();
  2995              		.loc 4 187 18
-ARM GAS  C:\Users\ben96\AppData\Local\Temp\ccsdFOSc.s 			page 92
+ARM GAS  C:\Users\ben96\AppData\Local\Temp\cc0gcgHj.s 			page 92
 
 
  2996 02f2 3E4B     		ldr	r3, .L164
@@ -5518,7 +5518,7 @@ ARM GAS  C:\Users\ben96\AppData\Local\Temp\ccsdFOSc.s 			page 1
  3047              		.loc 4 190 49 discriminator 1
  3048 034c FFF7FEFF 		bl	encenderRojo
  3049 0350 3FE0     		b	.L143
-ARM GAS  C:\Users\ben96\AppData\Local\Temp\ccsdFOSc.s 			page 93
+ARM GAS  C:\Users\ben96\AppData\Local\Temp\cc0gcgHj.s 			page 93
 
 
  3050              	.L157:
@@ -5578,7 +5578,7 @@ ARM GAS  C:\Users\ben96\AppData\Local\Temp\ccsdFOSc.s 			page 1
  3100              		.loc 4 194 16
  3101 03a8 002B     		cmp	r3, #0
  3102 03aa 09D1     		bne	.L161
-ARM GAS  C:\Users\ben96\AppData\Local\Temp\ccsdFOSc.s 			page 94
+ARM GAS  C:\Users\ben96\AppData\Local\Temp\cc0gcgHj.s 			page 94
 
 
  195:Core/Inc/rutinas_de_interrupcion.h ****         {
@@ -5638,7 +5638,7 @@ ARM GAS  C:\Users\ben96\AppData\Local\Temp\ccsdFOSc.s 			page 1
  3141              		.cfi_def_cfa_register 13
  3142              		@ sp needed
  3143 03ea 80BD     		pop	{r7, pc}
-ARM GAS  C:\Users\ben96\AppData\Local\Temp\ccsdFOSc.s 			page 95
+ARM GAS  C:\Users\ben96\AppData\Local\Temp\cc0gcgHj.s 			page 95
 
 
  3144              	.L165:
@@ -5698,7 +5698,7 @@ ARM GAS  C:\Users\ben96\AppData\Local\Temp\ccsdFOSc.s 			page 1
   13:Core/Src/main.c **** 
   14:Core/Src/main.c ****   intensidadLed = (char*)malloc(6);
  3188              		.loc 5 14 26
-ARM GAS  C:\Users\ben96\AppData\Local\Temp\ccsdFOSc.s 			page 96
+ARM GAS  C:\Users\ben96\AppData\Local\Temp\cc0gcgHj.s 			page 96
 
 
  3189 0008 0620     		movs	r0, #6
@@ -5758,7 +5758,7 @@ ARM GAS  C:\Users\ben96\AppData\Local\Temp\ccsdFOSc.s 			page 1
  3232              		.loc 5 25 3
  3233 0058 FFF7FEFF 		bl	configurarUSART1
  3234              	.L167:
-ARM GAS  C:\Users\ben96\AppData\Local\Temp\ccsdFOSc.s 			page 97
+ARM GAS  C:\Users\ben96\AppData\Local\Temp\cc0gcgHj.s 			page 97
 
 
   26:Core/Src/main.c ****   
@@ -5783,127 +5783,127 @@ ARM GAS  C:\Users\ben96\AppData\Local\Temp\ccsdFOSc.s 			page 1
  3255              		.file 7 "c:\\program files (x86)\\gnu arm embedded toolchain\\10 2021.07\\arm-none-eabi\\include\\
  3256              		.file 8 "c:\\program files (x86)\\gnu arm embedded toolchain\\10 2021.07\\arm-none-eabi\\include\\
  3257              		.file 9 "Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h"
-ARM GAS  C:\Users\ben96\AppData\Local\Temp\ccsdFOSc.s 			page 98
+ARM GAS  C:\Users\ben96\AppData\Local\Temp\cc0gcgHj.s 			page 98
 
 
 DEFINED SYMBOLS
                             *ABS*:00000000 main.c
-C:\Users\ben96\AppData\Local\Temp\ccsdFOSc.s:16     .text.__NVIC_SetPriority:00000000 $t
-C:\Users\ben96\AppData\Local\Temp\ccsdFOSc.s:23     .text.__NVIC_SetPriority:00000000 __NVIC_SetPriority
-C:\Users\ben96\AppData\Local\Temp\ccsdFOSc.s:98     .text.__NVIC_SetPriority:0000004c $d
-C:\Users\ben96\AppData\Local\Temp\ccsdFOSc.s:104    .bss.intensidadLed:00000000 $d
-C:\Users\ben96\AppData\Local\Temp\ccsdFOSc.s:107    .bss.intensidadLed:00000000 intensidadLed
-C:\Users\ben96\AppData\Local\Temp\ccsdFOSc.s:112    .bss.index_intensidad:00000000 index_intensidad
-C:\Users\ben96\AppData\Local\Temp\ccsdFOSc.s:113    .bss.index_intensidad:00000000 $d
-C:\Users\ben96\AppData\Local\Temp\ccsdFOSc.s:115    .bss.caracteres:00000000 $d
-C:\Users\ben96\AppData\Local\Temp\ccsdFOSc.s:118    .bss.caracteres:00000000 caracteres
-C:\Users\ben96\AppData\Local\Temp\ccsdFOSc.s:123    .bss.index_caracteres:00000000 index_caracteres
-C:\Users\ben96\AppData\Local\Temp\ccsdFOSc.s:124    .bss.index_caracteres:00000000 $d
-C:\Users\ben96\AppData\Local\Temp\ccsdFOSc.s:128    .bss.partyMode:00000000 partyMode
-C:\Users\ben96\AppData\Local\Temp\ccsdFOSc.s:129    .bss.partyMode:00000000 $d
-C:\Users\ben96\AppData\Local\Temp\ccsdFOSc.s:131    .text.transmitirCadena:00000000 $t
-C:\Users\ben96\AppData\Local\Temp\ccsdFOSc.s:138    .text.transmitirCadena:00000000 transmitirCadena
-C:\Users\ben96\AppData\Local\Temp\ccsdFOSc.s:215    .text.transmitirCadena:0000004c $d
-C:\Users\ben96\AppData\Local\Temp\ccsdFOSc.s:220    .text.parpadearLedPlaca:00000000 $t
-C:\Users\ben96\AppData\Local\Temp\ccsdFOSc.s:227    .text.parpadearLedPlaca:00000000 parpadearLedPlaca
-C:\Users\ben96\AppData\Local\Temp\ccsdFOSc.s:266    .text.parpadearLedPlaca:00000020 $d
-C:\Users\ben96\AppData\Local\Temp\ccsdFOSc.s:271    .text.parpadearLedPlacaVeces:00000000 $t
-C:\Users\ben96\AppData\Local\Temp\ccsdFOSc.s:278    .text.parpadearLedPlacaVeces:00000000 parpadearLedPlacaVeces
-C:\Users\ben96\AppData\Local\Temp\ccsdFOSc.s:358    .text.parpadearLedPlacaVeces:00000064 $d
-C:\Users\ben96\AppData\Local\Temp\ccsdFOSc.s:364    .text.msParpadeoLedPlaca:00000000 $t
-C:\Users\ben96\AppData\Local\Temp\ccsdFOSc.s:371    .text.msParpadeoLedPlaca:00000000 msParpadeoLedPlaca
-C:\Users\ben96\AppData\Local\Temp\ccsdFOSc.s:417    .text.msParpadeoLedPlaca:00000020 $d
-C:\Users\ben96\AppData\Local\Temp\ccsdFOSc.s:422    .text.esNumero:00000000 $t
-C:\Users\ben96\AppData\Local\Temp\ccsdFOSc.s:429    .text.esNumero:00000000 esNumero
-C:\Users\ben96\AppData\Local\Temp\ccsdFOSc.s:483    .text.encenderNaranja:00000000 $t
-C:\Users\ben96\AppData\Local\Temp\ccsdFOSc.s:490    .text.encenderNaranja:00000000 encenderNaranja
-C:\Users\ben96\AppData\Local\Temp\ccsdFOSc.s:533    .text.encenderNaranja:00000024 $d
-C:\Users\ben96\AppData\Local\Temp\ccsdFOSc.s:539    .text.encenderAmarillo:00000000 $t
-C:\Users\ben96\AppData\Local\Temp\ccsdFOSc.s:546    .text.encenderAmarillo:00000000 encenderAmarillo
-C:\Users\ben96\AppData\Local\Temp\ccsdFOSc.s:589    .text.encenderAmarillo:00000024 $d
-C:\Users\ben96\AppData\Local\Temp\ccsdFOSc.s:595    .text.encenderFluor:00000000 $t
-C:\Users\ben96\AppData\Local\Temp\ccsdFOSc.s:602    .text.encenderFluor:00000000 encenderFluor
-C:\Users\ben96\AppData\Local\Temp\ccsdFOSc.s:645    .text.encenderFluor:00000024 $d
-C:\Users\ben96\AppData\Local\Temp\ccsdFOSc.s:651    .text.encenderRosa:00000000 $t
-C:\Users\ben96\AppData\Local\Temp\ccsdFOSc.s:658    .text.encenderRosa:00000000 encenderRosa
-C:\Users\ben96\AppData\Local\Temp\ccsdFOSc.s:701    .text.encenderRosa:00000024 $d
-C:\Users\ben96\AppData\Local\Temp\ccsdFOSc.s:707    .text.encenderRojo:00000000 $t
-C:\Users\ben96\AppData\Local\Temp\ccsdFOSc.s:714    .text.encenderRojo:00000000 encenderRojo
-C:\Users\ben96\AppData\Local\Temp\ccsdFOSc.s:757    .text.encenderRojo:00000024 $d
-C:\Users\ben96\AppData\Local\Temp\ccsdFOSc.s:763    .text.encenderVioleta:00000000 $t
-C:\Users\ben96\AppData\Local\Temp\ccsdFOSc.s:770    .text.encenderVioleta:00000000 encenderVioleta
-C:\Users\ben96\AppData\Local\Temp\ccsdFOSc.s:813    .text.encenderVioleta:00000024 $d
-C:\Users\ben96\AppData\Local\Temp\ccsdFOSc.s:819    .text.encenderVerde:00000000 $t
-C:\Users\ben96\AppData\Local\Temp\ccsdFOSc.s:826    .text.encenderVerde:00000000 encenderVerde
-C:\Users\ben96\AppData\Local\Temp\ccsdFOSc.s:869    .text.encenderVerde:00000024 $d
-C:\Users\ben96\AppData\Local\Temp\ccsdFOSc.s:875    .text.encenderCeleste:00000000 $t
-C:\Users\ben96\AppData\Local\Temp\ccsdFOSc.s:882    .text.encenderCeleste:00000000 encenderCeleste
-C:\Users\ben96\AppData\Local\Temp\ccsdFOSc.s:925    .text.encenderCeleste:00000024 $d
-C:\Users\ben96\AppData\Local\Temp\ccsdFOSc.s:931    .text.encenderAzul:00000000 $t
-C:\Users\ben96\AppData\Local\Temp\ccsdFOSc.s:938    .text.encenderAzul:00000000 encenderAzul
-C:\Users\ben96\AppData\Local\Temp\ccsdFOSc.s:981    .text.encenderAzul:00000024 $d
-C:\Users\ben96\AppData\Local\Temp\ccsdFOSc.s:987    .text.encenderBlanco:00000000 $t
-ARM GAS  C:\Users\ben96\AppData\Local\Temp\ccsdFOSc.s 			page 99
+C:\Users\ben96\AppData\Local\Temp\cc0gcgHj.s:16     .text.__NVIC_SetPriority:00000000 $t
+C:\Users\ben96\AppData\Local\Temp\cc0gcgHj.s:23     .text.__NVIC_SetPriority:00000000 __NVIC_SetPriority
+C:\Users\ben96\AppData\Local\Temp\cc0gcgHj.s:98     .text.__NVIC_SetPriority:0000004c $d
+C:\Users\ben96\AppData\Local\Temp\cc0gcgHj.s:104    .bss.intensidadLed:00000000 $d
+C:\Users\ben96\AppData\Local\Temp\cc0gcgHj.s:107    .bss.intensidadLed:00000000 intensidadLed
+C:\Users\ben96\AppData\Local\Temp\cc0gcgHj.s:112    .bss.index_intensidad:00000000 index_intensidad
+C:\Users\ben96\AppData\Local\Temp\cc0gcgHj.s:113    .bss.index_intensidad:00000000 $d
+C:\Users\ben96\AppData\Local\Temp\cc0gcgHj.s:115    .bss.caracteres:00000000 $d
+C:\Users\ben96\AppData\Local\Temp\cc0gcgHj.s:118    .bss.caracteres:00000000 caracteres
+C:\Users\ben96\AppData\Local\Temp\cc0gcgHj.s:123    .bss.index_caracteres:00000000 index_caracteres
+C:\Users\ben96\AppData\Local\Temp\cc0gcgHj.s:124    .bss.index_caracteres:00000000 $d
+C:\Users\ben96\AppData\Local\Temp\cc0gcgHj.s:128    .bss.partyMode:00000000 partyMode
+C:\Users\ben96\AppData\Local\Temp\cc0gcgHj.s:129    .bss.partyMode:00000000 $d
+C:\Users\ben96\AppData\Local\Temp\cc0gcgHj.s:131    .text.transmitirCadena:00000000 $t
+C:\Users\ben96\AppData\Local\Temp\cc0gcgHj.s:138    .text.transmitirCadena:00000000 transmitirCadena
+C:\Users\ben96\AppData\Local\Temp\cc0gcgHj.s:215    .text.transmitirCadena:0000004c $d
+C:\Users\ben96\AppData\Local\Temp\cc0gcgHj.s:220    .text.parpadearLedPlaca:00000000 $t
+C:\Users\ben96\AppData\Local\Temp\cc0gcgHj.s:227    .text.parpadearLedPlaca:00000000 parpadearLedPlaca
+C:\Users\ben96\AppData\Local\Temp\cc0gcgHj.s:266    .text.parpadearLedPlaca:00000020 $d
+C:\Users\ben96\AppData\Local\Temp\cc0gcgHj.s:271    .text.parpadearLedPlacaVeces:00000000 $t
+C:\Users\ben96\AppData\Local\Temp\cc0gcgHj.s:278    .text.parpadearLedPlacaVeces:00000000 parpadearLedPlacaVeces
+C:\Users\ben96\AppData\Local\Temp\cc0gcgHj.s:358    .text.parpadearLedPlacaVeces:00000064 $d
+C:\Users\ben96\AppData\Local\Temp\cc0gcgHj.s:364    .text.msParpadeoLedPlaca:00000000 $t
+C:\Users\ben96\AppData\Local\Temp\cc0gcgHj.s:371    .text.msParpadeoLedPlaca:00000000 msParpadeoLedPlaca
+C:\Users\ben96\AppData\Local\Temp\cc0gcgHj.s:417    .text.msParpadeoLedPlaca:00000020 $d
+C:\Users\ben96\AppData\Local\Temp\cc0gcgHj.s:422    .text.esNumero:00000000 $t
+C:\Users\ben96\AppData\Local\Temp\cc0gcgHj.s:429    .text.esNumero:00000000 esNumero
+C:\Users\ben96\AppData\Local\Temp\cc0gcgHj.s:483    .text.encenderNaranja:00000000 $t
+C:\Users\ben96\AppData\Local\Temp\cc0gcgHj.s:490    .text.encenderNaranja:00000000 encenderNaranja
+C:\Users\ben96\AppData\Local\Temp\cc0gcgHj.s:533    .text.encenderNaranja:00000024 $d
+C:\Users\ben96\AppData\Local\Temp\cc0gcgHj.s:539    .text.encenderAmarillo:00000000 $t
+C:\Users\ben96\AppData\Local\Temp\cc0gcgHj.s:546    .text.encenderAmarillo:00000000 encenderAmarillo
+C:\Users\ben96\AppData\Local\Temp\cc0gcgHj.s:589    .text.encenderAmarillo:00000024 $d
+C:\Users\ben96\AppData\Local\Temp\cc0gcgHj.s:595    .text.encenderFluor:00000000 $t
+C:\Users\ben96\AppData\Local\Temp\cc0gcgHj.s:602    .text.encenderFluor:00000000 encenderFluor
+C:\Users\ben96\AppData\Local\Temp\cc0gcgHj.s:645    .text.encenderFluor:00000024 $d
+C:\Users\ben96\AppData\Local\Temp\cc0gcgHj.s:651    .text.encenderRosa:00000000 $t
+C:\Users\ben96\AppData\Local\Temp\cc0gcgHj.s:658    .text.encenderRosa:00000000 encenderRosa
+C:\Users\ben96\AppData\Local\Temp\cc0gcgHj.s:701    .text.encenderRosa:00000024 $d
+C:\Users\ben96\AppData\Local\Temp\cc0gcgHj.s:707    .text.encenderRojo:00000000 $t
+C:\Users\ben96\AppData\Local\Temp\cc0gcgHj.s:714    .text.encenderRojo:00000000 encenderRojo
+C:\Users\ben96\AppData\Local\Temp\cc0gcgHj.s:757    .text.encenderRojo:00000024 $d
+C:\Users\ben96\AppData\Local\Temp\cc0gcgHj.s:763    .text.encenderVioleta:00000000 $t
+C:\Users\ben96\AppData\Local\Temp\cc0gcgHj.s:770    .text.encenderVioleta:00000000 encenderVioleta
+C:\Users\ben96\AppData\Local\Temp\cc0gcgHj.s:813    .text.encenderVioleta:00000024 $d
+C:\Users\ben96\AppData\Local\Temp\cc0gcgHj.s:819    .text.encenderVerde:00000000 $t
+C:\Users\ben96\AppData\Local\Temp\cc0gcgHj.s:826    .text.encenderVerde:00000000 encenderVerde
+C:\Users\ben96\AppData\Local\Temp\cc0gcgHj.s:869    .text.encenderVerde:00000024 $d
+C:\Users\ben96\AppData\Local\Temp\cc0gcgHj.s:875    .text.encenderCeleste:00000000 $t
+C:\Users\ben96\AppData\Local\Temp\cc0gcgHj.s:882    .text.encenderCeleste:00000000 encenderCeleste
+C:\Users\ben96\AppData\Local\Temp\cc0gcgHj.s:925    .text.encenderCeleste:00000024 $d
+C:\Users\ben96\AppData\Local\Temp\cc0gcgHj.s:931    .text.encenderAzul:00000000 $t
+C:\Users\ben96\AppData\Local\Temp\cc0gcgHj.s:938    .text.encenderAzul:00000000 encenderAzul
+C:\Users\ben96\AppData\Local\Temp\cc0gcgHj.s:981    .text.encenderAzul:00000024 $d
+C:\Users\ben96\AppData\Local\Temp\cc0gcgHj.s:987    .text.encenderBlanco:00000000 $t
+ARM GAS  C:\Users\ben96\AppData\Local\Temp\cc0gcgHj.s 			page 99
 
 
-C:\Users\ben96\AppData\Local\Temp\ccsdFOSc.s:994    .text.encenderBlanco:00000000 encenderBlanco
-C:\Users\ben96\AppData\Local\Temp\ccsdFOSc.s:1037   .text.encenderBlanco:00000028 $d
-C:\Users\ben96\AppData\Local\Temp\ccsdFOSc.s:1043   .text.encenderCelesteMar:00000000 $t
-C:\Users\ben96\AppData\Local\Temp\ccsdFOSc.s:1050   .text.encenderCelesteMar:00000000 encenderCelesteMar
-C:\Users\ben96\AppData\Local\Temp\ccsdFOSc.s:1093   .text.encenderCelesteMar:00000024 $d
-C:\Users\ben96\AppData\Local\Temp\ccsdFOSc.s:1099   .text.encenderVioletaOscuro:00000000 $t
-C:\Users\ben96\AppData\Local\Temp\ccsdFOSc.s:1106   .text.encenderVioletaOscuro:00000000 encenderVioletaOscuro
-C:\Users\ben96\AppData\Local\Temp\ccsdFOSc.s:1149   .text.encenderVioletaOscuro:00000024 $d
-C:\Users\ben96\AppData\Local\Temp\ccsdFOSc.s:1155   .text.encenderFucsia:00000000 $t
-C:\Users\ben96\AppData\Local\Temp\ccsdFOSc.s:1162   .text.encenderFucsia:00000000 encenderFucsia
-C:\Users\ben96\AppData\Local\Temp\ccsdFOSc.s:1205   .text.encenderFucsia:00000024 $d
-C:\Users\ben96\AppData\Local\Temp\ccsdFOSc.s:1211   .text.apagarLed:00000000 $t
-C:\Users\ben96\AppData\Local\Temp\ccsdFOSc.s:1218   .text.apagarLed:00000000 apagarLed
-C:\Users\ben96\AppData\Local\Temp\ccsdFOSc.s:1261   .text.apagarLed:00000020 $d
-C:\Users\ben96\AppData\Local\Temp\ccsdFOSc.s:1267   .text.setTo28MHzFromHSE:00000000 $t
-C:\Users\ben96\AppData\Local\Temp\ccsdFOSc.s:1274   .text.setTo28MHzFromHSE:00000000 setTo28MHzFromHSE
-C:\Users\ben96\AppData\Local\Temp\ccsdFOSc.s:1417   .text.setTo28MHzFromHSE:000000e0 $d
-C:\Users\ben96\AppData\Local\Temp\ccsdFOSc.s:1427   .text.configurarTimerParaLedRgb:00000000 $t
-C:\Users\ben96\AppData\Local\Temp\ccsdFOSc.s:1434   .text.configurarTimerParaLedRgb:00000000 configurarTimerParaLedRgb
-C:\Users\ben96\AppData\Local\Temp\ccsdFOSc.s:1695   .text.configurarTimerParaLedRgb:000001c8 $d
-C:\Users\ben96\AppData\Local\Temp\ccsdFOSc.s:1707   .text.configurarTIM1:00000000 $t
-C:\Users\ben96\AppData\Local\Temp\ccsdFOSc.s:1714   .text.configurarTIM1:00000000 configurarTIM1
-C:\Users\ben96\AppData\Local\Temp\ccsdFOSc.s:1807   .text.configurarTIM1:00000070 $d
-C:\Users\ben96\AppData\Local\Temp\ccsdFOSc.s:1816   .text.configurarUSART1:00000000 $t
-C:\Users\ben96\AppData\Local\Temp\ccsdFOSc.s:1823   .text.configurarUSART1:00000000 configurarUSART1
-C:\Users\ben96\AppData\Local\Temp\ccsdFOSc.s:1879   .text.configurarUSART1:00000048 $d
-C:\Users\ben96\AppData\Local\Temp\ccsdFOSc.s:1885   .text.configurarPuertos:00000000 $t
-C:\Users\ben96\AppData\Local\Temp\ccsdFOSc.s:1892   .text.configurarPuertos:00000000 configurarPuertos
-C:\Users\ben96\AppData\Local\Temp\ccsdFOSc.s:1947   .text.configurarPuertos:0000003c $d
-C:\Users\ben96\AppData\Local\Temp\ccsdFOSc.s:1955   .text.TIM2_IRQHandler:00000000 $t
-C:\Users\ben96\AppData\Local\Temp\ccsdFOSc.s:1962   .text.TIM2_IRQHandler:00000000 TIM2_IRQHandler
-C:\Users\ben96\AppData\Local\Temp\ccsdFOSc.s:2040   .text.TIM2_IRQHandler:00000058 $d
-C:\Users\ben96\AppData\Local\Temp\ccsdFOSc.s:2045   .text.TIM3_IRQHandler:00000000 $t
-C:\Users\ben96\AppData\Local\Temp\ccsdFOSc.s:2052   .text.TIM3_IRQHandler:00000000 TIM3_IRQHandler
-C:\Users\ben96\AppData\Local\Temp\ccsdFOSc.s:2129   .text.TIM3_IRQHandler:00000050 $d
-C:\Users\ben96\AppData\Local\Temp\ccsdFOSc.s:2135   .text.TIM4_IRQHandler:00000000 $t
-C:\Users\ben96\AppData\Local\Temp\ccsdFOSc.s:2142   .text.TIM4_IRQHandler:00000000 TIM4_IRQHandler
-C:\Users\ben96\AppData\Local\Temp\ccsdFOSc.s:2219   .text.TIM4_IRQHandler:00000050 $d
-C:\Users\ben96\AppData\Local\Temp\ccsdFOSc.s:2225   .text.TIM1_UP_IRQHandler:00000000 $t
-C:\Users\ben96\AppData\Local\Temp\ccsdFOSc.s:2232   .text.TIM1_UP_IRQHandler:00000000 TIM1_UP_IRQHandler
-C:\Users\ben96\AppData\Local\Temp\ccsdFOSc.s:2458   .text.TIM1_UP_IRQHandler:00000128 $d
-C:\Users\ben96\AppData\Local\Temp\ccsdFOSc.s:3250   .bss.color_seleccionado.0:00000000 color_seleccionado.0
-C:\Users\ben96\AppData\Local\Temp\ccsdFOSc.s:2466   .rodata:00000000 $d
-C:\Users\ben96\AppData\Local\Temp\ccsdFOSc.s:2524   .text.USART1_IRQHandler:00000000 $t
-C:\Users\ben96\AppData\Local\Temp\ccsdFOSc.s:2531   .text.USART1_IRQHandler:00000000 USART1_IRQHandler
-C:\Users\ben96\AppData\Local\Temp\ccsdFOSc.s:2951   .text.USART1_IRQHandler:00000280 $d
-C:\Users\ben96\AppData\Local\Temp\ccsdFOSc.s:2971   .text.USART1_IRQHandler:000002c8 $t
-C:\Users\ben96\AppData\Local\Temp\ccsdFOSc.s:3147   .text.USART1_IRQHandler:000003ec $d
-C:\Users\ben96\AppData\Local\Temp\ccsdFOSc.s:3164   .text.main:00000000 $t
-C:\Users\ben96\AppData\Local\Temp\ccsdFOSc.s:3171   .text.main:00000000 main
-C:\Users\ben96\AppData\Local\Temp\ccsdFOSc.s:3240   .text.main:00000060 $d
-C:\Users\ben96\AppData\Local\Temp\ccsdFOSc.s:3251   .bss.color_seleccionado.0:00000000 $d
+C:\Users\ben96\AppData\Local\Temp\cc0gcgHj.s:994    .text.encenderBlanco:00000000 encenderBlanco
+C:\Users\ben96\AppData\Local\Temp\cc0gcgHj.s:1037   .text.encenderBlanco:00000028 $d
+C:\Users\ben96\AppData\Local\Temp\cc0gcgHj.s:1043   .text.encenderCelesteMar:00000000 $t
+C:\Users\ben96\AppData\Local\Temp\cc0gcgHj.s:1050   .text.encenderCelesteMar:00000000 encenderCelesteMar
+C:\Users\ben96\AppData\Local\Temp\cc0gcgHj.s:1093   .text.encenderCelesteMar:00000024 $d
+C:\Users\ben96\AppData\Local\Temp\cc0gcgHj.s:1099   .text.encenderVioletaOscuro:00000000 $t
+C:\Users\ben96\AppData\Local\Temp\cc0gcgHj.s:1106   .text.encenderVioletaOscuro:00000000 encenderVioletaOscuro
+C:\Users\ben96\AppData\Local\Temp\cc0gcgHj.s:1149   .text.encenderVioletaOscuro:00000024 $d
+C:\Users\ben96\AppData\Local\Temp\cc0gcgHj.s:1155   .text.encenderFucsia:00000000 $t
+C:\Users\ben96\AppData\Local\Temp\cc0gcgHj.s:1162   .text.encenderFucsia:00000000 encenderFucsia
+C:\Users\ben96\AppData\Local\Temp\cc0gcgHj.s:1205   .text.encenderFucsia:00000024 $d
+C:\Users\ben96\AppData\Local\Temp\cc0gcgHj.s:1211   .text.apagarLed:00000000 $t
+C:\Users\ben96\AppData\Local\Temp\cc0gcgHj.s:1218   .text.apagarLed:00000000 apagarLed
+C:\Users\ben96\AppData\Local\Temp\cc0gcgHj.s:1261   .text.apagarLed:00000020 $d
+C:\Users\ben96\AppData\Local\Temp\cc0gcgHj.s:1267   .text.setTo28MHzFromHSE:00000000 $t
+C:\Users\ben96\AppData\Local\Temp\cc0gcgHj.s:1274   .text.setTo28MHzFromHSE:00000000 setTo28MHzFromHSE
+C:\Users\ben96\AppData\Local\Temp\cc0gcgHj.s:1417   .text.setTo28MHzFromHSE:000000e0 $d
+C:\Users\ben96\AppData\Local\Temp\cc0gcgHj.s:1427   .text.configurarTimerParaLedRgb:00000000 $t
+C:\Users\ben96\AppData\Local\Temp\cc0gcgHj.s:1434   .text.configurarTimerParaLedRgb:00000000 configurarTimerParaLedRgb
+C:\Users\ben96\AppData\Local\Temp\cc0gcgHj.s:1695   .text.configurarTimerParaLedRgb:000001c8 $d
+C:\Users\ben96\AppData\Local\Temp\cc0gcgHj.s:1707   .text.configurarTIM1:00000000 $t
+C:\Users\ben96\AppData\Local\Temp\cc0gcgHj.s:1714   .text.configurarTIM1:00000000 configurarTIM1
+C:\Users\ben96\AppData\Local\Temp\cc0gcgHj.s:1807   .text.configurarTIM1:00000070 $d
+C:\Users\ben96\AppData\Local\Temp\cc0gcgHj.s:1816   .text.configurarUSART1:00000000 $t
+C:\Users\ben96\AppData\Local\Temp\cc0gcgHj.s:1823   .text.configurarUSART1:00000000 configurarUSART1
+C:\Users\ben96\AppData\Local\Temp\cc0gcgHj.s:1879   .text.configurarUSART1:00000048 $d
+C:\Users\ben96\AppData\Local\Temp\cc0gcgHj.s:1885   .text.configurarPuertos:00000000 $t
+C:\Users\ben96\AppData\Local\Temp\cc0gcgHj.s:1892   .text.configurarPuertos:00000000 configurarPuertos
+C:\Users\ben96\AppData\Local\Temp\cc0gcgHj.s:1947   .text.configurarPuertos:0000003c $d
+C:\Users\ben96\AppData\Local\Temp\cc0gcgHj.s:1955   .text.TIM2_IRQHandler:00000000 $t
+C:\Users\ben96\AppData\Local\Temp\cc0gcgHj.s:1962   .text.TIM2_IRQHandler:00000000 TIM2_IRQHandler
+C:\Users\ben96\AppData\Local\Temp\cc0gcgHj.s:2040   .text.TIM2_IRQHandler:00000058 $d
+C:\Users\ben96\AppData\Local\Temp\cc0gcgHj.s:2045   .text.TIM3_IRQHandler:00000000 $t
+C:\Users\ben96\AppData\Local\Temp\cc0gcgHj.s:2052   .text.TIM3_IRQHandler:00000000 TIM3_IRQHandler
+C:\Users\ben96\AppData\Local\Temp\cc0gcgHj.s:2129   .text.TIM3_IRQHandler:00000050 $d
+C:\Users\ben96\AppData\Local\Temp\cc0gcgHj.s:2135   .text.TIM4_IRQHandler:00000000 $t
+C:\Users\ben96\AppData\Local\Temp\cc0gcgHj.s:2142   .text.TIM4_IRQHandler:00000000 TIM4_IRQHandler
+C:\Users\ben96\AppData\Local\Temp\cc0gcgHj.s:2219   .text.TIM4_IRQHandler:00000050 $d
+C:\Users\ben96\AppData\Local\Temp\cc0gcgHj.s:2225   .text.TIM1_UP_IRQHandler:00000000 $t
+C:\Users\ben96\AppData\Local\Temp\cc0gcgHj.s:2232   .text.TIM1_UP_IRQHandler:00000000 TIM1_UP_IRQHandler
+C:\Users\ben96\AppData\Local\Temp\cc0gcgHj.s:2458   .text.TIM1_UP_IRQHandler:00000128 $d
+C:\Users\ben96\AppData\Local\Temp\cc0gcgHj.s:3250   .bss.color_seleccionado.0:00000000 color_seleccionado.0
+C:\Users\ben96\AppData\Local\Temp\cc0gcgHj.s:2466   .rodata:00000000 $d
+C:\Users\ben96\AppData\Local\Temp\cc0gcgHj.s:2524   .text.USART1_IRQHandler:00000000 $t
+C:\Users\ben96\AppData\Local\Temp\cc0gcgHj.s:2531   .text.USART1_IRQHandler:00000000 USART1_IRQHandler
+C:\Users\ben96\AppData\Local\Temp\cc0gcgHj.s:2951   .text.USART1_IRQHandler:00000280 $d
+C:\Users\ben96\AppData\Local\Temp\cc0gcgHj.s:2971   .text.USART1_IRQHandler:000002c8 $t
+C:\Users\ben96\AppData\Local\Temp\cc0gcgHj.s:3147   .text.USART1_IRQHandler:000003ec $d
+C:\Users\ben96\AppData\Local\Temp\cc0gcgHj.s:3164   .text.main:00000000 $t
+C:\Users\ben96\AppData\Local\Temp\cc0gcgHj.s:3171   .text.main:00000000 main
+C:\Users\ben96\AppData\Local\Temp\cc0gcgHj.s:3240   .text.main:00000060 $d
+C:\Users\ben96\AppData\Local\Temp\cc0gcgHj.s:3251   .bss.color_seleccionado.0:00000000 $d
 
 UNDEFINED SYMBOLS
 strlen
 SystemCoreClockUpdate
 __aeabi_ui2d
-ARM GAS  C:\Users\ben96\AppData\Local\Temp\ccsdFOSc.s 			page 100
+ARM GAS  C:\Users\ben96\AppData\Local\Temp\cc0gcgHj.s 			page 100
 
 
 __aeabi_ddiv
